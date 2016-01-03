@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">DnDCoPilot</string>
+    <string name="app_name">DnD CoPilot</string>
     <string name="action_settings">Settings</string>
+
+    <string name="cList_Sort_Button_Text">Sort: Used</string>
+    <string name="cList_New_Character_Button_Text">Add New Character</string>
+    <string name="title_activity_character_home">Character Home Screen</string>
+
 </resources>
