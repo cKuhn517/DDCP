@@ -94,6 +94,7 @@
         android:layout_height="wrap_content"
         android:text="Ulfgarr"
         android:id="@+id/button_ulfgarr"
+        android:onClick="ldUlfgarr"
         android:layout_below="@+id/cList_New_Button"
         android:layout_alignParentStart="true" />
 
