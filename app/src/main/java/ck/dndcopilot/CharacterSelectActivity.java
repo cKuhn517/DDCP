@@ -17,10 +17,10 @@ import android.widget.Toast;
 
 public class CharacterSelectActivity extends AppCompatActivity {
 
-    //public final static String MSG_CHAR_NAME = "ck.DnDCoPilot.MESSAGE";
+    public final static String MSG_CHAR_NAME = "ck.DnDCoPilot.MESSAGE";
     CharListDBOpenHelper charDb;
     EditText editName, editID;
-    Button btnAddData, btnViewAll, btnUpdate, btnDelete;//, btnUlfgarr;
+    Button btnAddData, btnViewAll, btnUpdate, btnDelete;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,28 +37,12 @@ public class CharacterSelectActivity extends AppCompatActivity {
         btnViewAll = (Button) findViewById(R.id.button_view_all);
         btnUpdate = (Button) findViewById(R.id.button_update);
         btnDelete = (Button) findViewById(R.id.button_delete);
-        //btnUlfgarr = (Button) findViewById(R.id.button_ulfgarr);
         AddData();
         viewAll();
         updateData();
         deleteData();
-        //Ulfgarr();
 
     }
-
-    /**
-     private void Ulfgarr() {
-     btnUlfgarr.setOnClickListener(
-     new View.OnClickListener() {
-    @Override
-    public void onClick(View v) {
-    Intent intent = new Intent(this, CharacterHome.class);
-    intent.putExtra("Ulfgarr", message);
-    }
-    }
-     );
-     }
-     **/
 
     public void deleteData() {
         btnDelete.setOnClickListener(
@@ -81,7 +65,7 @@ public class CharacterSelectActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        boolean isUpdate = charDb.updateData(editID.getText().toString(),editName.getText().toString());
+                        boolean isUpdate = charDb.updateData(editID.getText().toString(), editName.getText().toString());
                         if(isUpdate)
                             Toast.makeText(CharacterSelectActivity.this, "Data Updated", Toast.LENGTH_LONG).show();
                         else
@@ -186,6 +170,14 @@ public class CharacterSelectActivity extends AppCompatActivity {
 
     public void cList_New(View view) {
         Button button = (Button) findViewById(R.id.cList_New_Button);
+
+    }
+
+    public void ldUlfgarr(View v) {
+        Intent intent = new Intent(this, CharacterHome.class);
+        String message = "Ulfgarr";
+        intent.putExtra(MSG_CHAR_NAME, message);
+        startActivity(intent);
 
     }
 }

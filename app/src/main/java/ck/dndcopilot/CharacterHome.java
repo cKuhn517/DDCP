@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 public class CharacterHome extends AppCompatActivity {
 
@@ -17,8 +18,11 @@ public class CharacterHome extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //Intent intent = getIntent();
-        //String message = intent.getStringExtra(CharacterSelectActivity.MSG)
+        Intent intent = getIntent();
+        String message = intent.getStringExtra(CharacterSelectActivity.MSG_CHAR_NAME);
+        TextView textView = new TextView(this);
+        textView.setTextSize(20);
+        textView.setText(message);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
