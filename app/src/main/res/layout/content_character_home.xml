@@ -54,18 +54,6 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="25dp" />
 
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="2dp"
-        android:id="@+id/progressBar"
-        android:max="100"
-        android:progress="100"
-        android:clickable="false"
-        android:background="#ff000000"
-        android:layout_below="@+id/imageView_char_portrait"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -159,6 +147,24 @@
         android:layout_below="@+id/button_char_home_add_xp"
         android:layout_alignParentStart="true" />
 
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:layout_marginRight="4dp"
+        android:max="100"
+        android:progress="100"
+        android:indeterminate="false"
+        android:progressBackgroundTint="#7bc043"
+        android:background="#77ee4035"
+        android:layout_alignBottom="@+id/textView_char_home_hp"
+        android:layout_toEndOf="@+id/textView_char_home_xp"
+        android:layout_toStartOf="@+id/imageView_char_portrait"
+        android:layout_alignTop="@+id/textView_char_home_hp"
+        android:layout_alignLeft="@+id/textView_char_home_hp_cur"
+        android:layout_toLeftOf="@+id/imageView_char_portrait" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -185,6 +191,24 @@
         android:id="@+id/textView_char_home_hp_max"
         android:layout_below="@+id/editText"
         android:layout_toEndOf="@+id/textView_char_home_hpSlash" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/imageView_char_portrait"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#55000000"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spells"
+        android:id="@+id/button_char_home_spells"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
