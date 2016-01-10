@@ -208,7 +208,42 @@
         android:text="Spells"
         android:id="@+id/button_char_home_spells"
         android:layout_below="@+id/imageView"
+        android:layout_toEndOf="@+id/button_char_home_char_sheet"
+        android:onClick="cHome_spells" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Character Sheet"
+        android:id="@+id/button_char_home_char_sheet"
+        android:layout_alignTop="@+id/textView_char_home_free_edit"
+        android:layout_toEndOf="@+id/textView_char_home_free_edit" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Mode"
+        android:id="@+id/button_char_home_play_mode"
+        android:layout_alignTop="@+id/textView_char_home_play_mode"
+        android:layout_toEndOf="@+id/textView_char_home_play_mode" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Play Mode: "
+        android:id="@+id/textView_char_home_play_mode"
+        android:layout_below="@+id/button_char_home_char_sheet"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Free Edit: "
+        android:id="@+id/textView_char_home_free_edit"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView" />
 
 
 </RelativeLayout>

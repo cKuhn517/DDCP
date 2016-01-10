@@ -27,6 +27,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ck.dndcopilot.CharacterSelectActivity" />
         </activity>
+        <activity
+            android:name=".Spells"
+            android:label="@string/title_activity_spells"
+            android:parentActivityName=".CharacterHome"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ck.dndcopilot.CharacterHome" />
+        </activity>
     </application>
 
 </manifest>

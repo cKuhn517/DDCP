@@ -7,5 +7,6 @@
     <string name="title_activity_character_home">Character Home Screen</string>
     <string name="char_name">CharName</string>
     <string name="char_race_class">CharRace CharClass</string>
+    <string name="title_activity_spells">Spells</string>
 
 </resources>
