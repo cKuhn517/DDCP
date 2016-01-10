@@ -5,5 +5,8 @@
     <string name="cList_Sort_Button_Text">Sort: Used</string>
     <string name="cList_New_Character_Button_Text">Add New Character</string>
     <string name="title_activity_character_home">Character Home Screen</string>
+    <string name="char_name">CharName</string>
+    <string name="char_race_class">CharRace CharClass</string>
+    <string name="title_activity_spells">Spells</string>
 
 </resources>
