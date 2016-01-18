@@ -1,0 +1,5 @@
+_id,name,slot,type,subtype1,subtype2,bdmg,mdmg,mdmgtype,crit,range,weight,cost,costunit,ac,maxdexbns,armorchkpen,arcspellfail,spd30,spd20,atr,atreff,sp_id,sp_cnt,ap_autoreset
+,Copper piece,,,,,,,,,,,1,cp,,,,,,,,,,,
+,Silver piece,,,,,,,,,,,1,sp,,,,,,,,,,,
+,Gold piece,,,,,,,,,,,1,gp,,,,,,,,,,,
+,Platinum piece,,,,,,,,,,,1,pp,,,,,,,,,,,

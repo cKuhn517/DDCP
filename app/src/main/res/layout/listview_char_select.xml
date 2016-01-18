@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CharName"
+        android:id="@+id/textView_clist_listview_name"
+        android:textSize="14pt"
+        android:textColor="#ff000000"
+        android:clickable="false"
+        android:gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_alignTop="@+id/textView_clist_listview_id"
+        android:layout_toEndOf="@+id/textView_clist_listview_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/textView_clist_listview_id"
+        android:textColor="#ff000000"
+        android:textSize="14pt"
+        android:layout_alignBottom="@+id/button_clist_listview_delete"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/button_clist_listview_delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:id="@+id/button_clist_listview_load"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button_clist_listview_delete" />
+
+</RelativeLayout>

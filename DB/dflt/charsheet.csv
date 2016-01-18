@@ -1,0 +1,2 @@
+_id,source,name,race,size,age,gender,level,xp,brb,brd,clr,drd,ftr,mnk,pal,rgr,rog,sor,wiz,str,dex,con,int,wis,cha,maxhp,curhp,subdmg,dr,dietype,speed,armor,shield,natarmor,miscarmor,misschance,arcspelfail,armorchkpen,spres,initmis,baseatk,fortbase,fortabil,fortmgc,fortmisc,refbase,refabil,refmgc,refmisc,willbase,willabil,willmgc,willmisc,meleebase,meleemisc,rangebase,rangemisc
+,perm,,,,,,1,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,1,1,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,

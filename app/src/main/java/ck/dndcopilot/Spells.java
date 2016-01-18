@@ -33,7 +33,7 @@ public class Spells extends AppCompatActivity {
 
     private void openDB(String name) {
         myDb = new SpellListDBOpenHelper(this, name);
-
+        /*
         try {
             myDb.createDataBase();
         } catch (IOException ioe) {
@@ -46,6 +46,7 @@ public class Spells extends AppCompatActivity {
             throw new Error("Unable to open database");
         }
         //myDb.open();
+        */
     }
 
 /*

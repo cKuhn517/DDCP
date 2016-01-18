@@ -1,0 +1,51 @@
+_id,skillname,key,ranks,misc,available,untrained,armorchkpen
+,Alchemy,Int,,,,0,0
+,Animal empathy,Cha,,,,0,0
+,Appraise,Int,,,,1,0
+,Balance,Dex,,,,1,1
+,Bluff,Cha,,,,1,0
+,Climb,Str,,,,1,1
+,Concentration,Con,,,,1,0
+,Craft,Int,,,,1,0
+,Decipher Script,Int,,,,0,0
+,Diplomacy,Cha,,,,1,0
+,Disable Device,Int,,,,0,0
+,Disguise,Cha,,,,1,0
+,Escape Artist,Dex,,,,1,1
+,Forgery,Int,,,,1,0
+,Gather Information,Cha,,,,1,0
+,Handle Animal,Cha,,,,0,0
+,Heal,Wis,,,,1,0
+,Hide,Dex,,,,1,1
+,Innuendo,Wis,,,,0,0
+,Intimidate,Cha,,,,1,0
+,Intuit Direction,Wis,,,,0,0
+,Jump,Str,,,,1,1
+,Knowledge (arcana),Int,,,,0,0
+,Knowledge (architecture),Int,,,,0,0
+,Knowledge (geography),Int,,,,0,0
+,Knowledge (history),Int,,,,0,0
+,Knowledge (local),Int,,,,0,0
+,Knowledge (nature),Int,,,,0,0
+,Knowledge (nobility and royalty),Int,,,,0,0
+,Knowledge (the planes),Int,,,,0,0
+,Knowledge (religion),Int,,,,0,0
+,Listen,Wis,,,,1,0
+,Move silently,Dex,,,,1,1
+,Open lock,Dex,,,,0,0
+,Perform,Cha,,,,1,0
+,Pick pocket,Dex,,,,0,1
+,Profession,Wis,,,,0,0
+,Read lips,Int,,,,0,0
+,Ride,Dex,,,,1,0
+,Scry,Int,,,,1,0
+,Search,Int,,,,1,0
+,Sense motive,Wis,,,,1,0
+,Speak language,NA,,,,0,0
+,Spellcraft,Int,,,,0,0
+,Spot,Wis,,,,1,0
+,Swim,Str,,,,1,0
+,Tumble,Dex,,,,0,1
+,Use magic device,Cha,,,,0,0
+,Use rope,Dex,,,,1,0
+,Wilderness lore,Wis,,,,1,0

@@ -1,0 +1,51 @@
+_id,skillname,bbn,brd,clr,drd,ftr,mnk,pal,rgr,rog,sor,wiz
+,Alchemy,2,1,,,,,,,,,1
+,Animal empathy,0,0,,,,,,,,,0
+,Appraise,2,1,,,,,,,,,2
+,Balance,2,1,,,,,,,,,2
+,Bluff,2,1,,,,,,,,,2
+,Climb,1,1,,,,,,,,,2
+,Concentration,2,1,,,,,,,,,1
+,Craft,1,1,,,,,,,,,1
+,Decipher Script,0,1,,,,,,,,,0
+,Diplomacy,2,1,,,,,,,,,2
+,Disable Device,2,2,,,,,,,,,2
+,Disguise,2,1,,,,,,,,,2
+,Escape Artist,2,1,,,,,,,,,2
+,Forgery,2,2,,,,,,,,,2
+,Gather Information,2,1,,,,,,,,,2
+,Handle Animal,1,2,,,,,,,,,2
+,Heal,2,2,,,,,,,,,2
+,Hide,2,1,,,,,,,,,2
+,Innuendo,2,2,,,,,,,,,2
+,Intimidate,1,2,,,,,,,,,2
+,Intuit Direction,1,1,,,,,,,,,2
+,Jump,1,1,,,,,,,,,2
+,Knowledge (arcana),2,1,,,,,,,,,1
+,Knowledge (architecture),2,1,,,,,,,,,1
+,Knowledge (geography),2,1,,,,,,,,,1
+,Knowledge (history),2,1,,,,,,,,,1
+,Knowledge (local),2,1,,,,,,,,,1
+,Knowledge (nature),2,1,,,,,,,,,1
+,Knowledge (nobility and royalty),2,1,,,,,,,,,1
+,Knowledge (the planes),2,1,,,,,,,,,1
+,Knowledge (religion),2,1,,,,,,,,,1
+,Listen,1,1,,,,,,,,,2
+,Move silently,2,1,,,,,,,,,2
+,Open lock,2,2,,,,,,,,,2
+,Perform,2,1,,,,,,,,,2
+,Pick pocket,2,1,,,,,,,,,2
+,Profession,2,1,,,,,,,,,1
+,Read lips,0,0,,,,,,,,,0
+,Ride,1,2,,,,,,,,,2
+,Scry,0,1,,,,,,,,,1
+,Search,2,2,,,,,,,,,2
+,Sense motive,2,1,,,,,,,,,2
+,Speak language,2,1,,,,,,,,,2
+,Spellcraft,2,1,,,,,,,,,1
+,Spot,2,2,,,,,,,,,2
+,Swim,1,1,,,,,,,,,2
+,Tumble,2,1,,,,,,,,,2
+,Use magic device,0,1,,,,,,,,,0
+,Use rope,2,2,,,,,,,,,2
+,Wilderness lore,1,2,,,,,,,,,2
