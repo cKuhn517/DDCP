@@ -20,9 +20,8 @@ public class CharacterHome extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(CharacterSelectActivity.MSG_CHAR_NAME);
-        TextView textView = new TextView(this);
-        textView.setTextSize(20);
-        textView.setText(message);
+        TextView textView_charname = (TextView) findViewById(R.id.textView_char_name);
+        textView_charname.setText(message);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
