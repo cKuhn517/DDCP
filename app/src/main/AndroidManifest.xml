@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CharacterHome"
+            android:name=".CharacterHomeActivity"
             android:label="@string/title_activity_character_home"
             android:parentActivityName=".CharacterSelectActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -30,11 +30,11 @@
         <activity
             android:name=".Spells"
             android:label="@string/title_activity_spells"
-            android:parentActivityName=".CharacterHome"
+            android:parentActivityName=".CharacterHomeActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="ck.dndcopilot.CharacterHome" />
+                android:value=".CharacterHomeActivity" />
         </activity>
     </application>
 

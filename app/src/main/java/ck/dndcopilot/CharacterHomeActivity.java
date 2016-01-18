@@ -9,7 +9,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
-public class CharacterHome extends AppCompatActivity {
+public class CharacterHomeActivity extends AppCompatActivity {
+
+    CharHomeDBOpenHelper CharDb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,10 @@ public class CharacterHome extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(CharacterSelectActivity.MSG_CHAR_NAME);
+
+        //CharDb = new CharHomeDBOpenHelper(this);
+
+
         TextView textView_charname = (TextView) findViewById(R.id.textView_char_name);
         textView_charname.setText(message);
 
