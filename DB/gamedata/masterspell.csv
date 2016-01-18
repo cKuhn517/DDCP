@@ -1,0 +1,782 @@
+_id,School,subschool,descriptors,Brd,Clr,Drd,Pal,Rgr,Wiz,Spell Name,Effect,Comp,Time,Range,Duration,Save,SR,Full,gp,xp
+,Conj,creation,acid,,,,,,6,Acid Fog,Fog deals acid damage.,vsmd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,"A bank of fog billows out from the point the character designates. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has one-half concealment (attacks suffer a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). The fog is so thick that any creature attempting to move through it progresses at one-tenth normal speed, and all melee attack and melee damage rolls suffer a –2 penalty. The vapors prevent effective ranged weapon attacks (except for magic rays and the like). A creature or object that falls into the fog is slowed, so that each 10 feet of vapor that the creature or objects passes through reduces falling damage by 1d6.
+
+Each round, starting when the character casts the spell, the fog deals 2d6 points of acid damage to creatures and objects within it.
+
+Only a severe wind (31+ mph) disperses these vapors, and it does so in 1 round.",,
+,Ench,compulsion,mind-affecting,,2,,,,,Aid,"+1 attack, +1 on saves against fear, 1d8 temporary hit points.",vsd,1 action,Touch,1 minute/level,None,Yes,"The subject gains a morale bonus of +1 on attack rolls, a morale bonus of +1 on saving throws against fear effects, and gains 1d8 temporary hit points.",,
+,Trans,,,,4,,,,,Air Walk,Subject treads on air as if solid (climb at 45-degree angle).,vsd,1 action,Touch,10 minutes/level,None,Yes,"The target creature can tread on air as if walking on solid ground. The maximum upward or downward angle possible is 45 degrees, at a rate equal to one-half the creature's normal speed.
+
+A strong wind (21+ mph) can push an air walker along or hold the walker back. At the end of the walker's turn each round, the wind blows the walker 5 feet for each 5 miles per hour of wind speed. The creature can, at the DM's option, be subject to additional penalties in exceptionally strong or turbulent winds.
+
+The character can cast air walk on a specially trained mount so it can be ridden through the air. The character trains a mount to air walk with the Handle Animal skill (air walking counts as an unusual task).",,
+,Abjur,,,1,,,,1,1,Alarm,Wards an area for 2 hours/level.,vsfd,1 action,Close (25 ft. + 5 ft./2 levels),2 hours/level,None,No,"Alarm sounds a mental or audible alarm each time a creature of Tiny or larger size enters the area or touches it. A creature who speaks the password (determined by the character at the time of casting) does not set off the alarm. The character decides at the time of casting whether the alarm will be mental or audible.
+
+Mental Alarm: A mental alarm alerts the character (and only the character) so long as the character remains within a mile of the warded area. The character notes a single mental alert that awakens the character from normal sleep but does not otherwise disturb concentration. A silence spell has no effect on a mental alarm.
+
+Audible Alarm: An audible alarm produces the sound of a hand bell, and anyone within 60 feet of the warded area can hear it clearly. Reduce the distance by 10 feet for each interposing closed door and by 20 feet for each substantial interposing wall. In quiet conditions, the ringing can be heard faintly up to 180 feet away. The ringing lasts for 1 round. Creatures within a silence spell cannot hear the ringing.
+
+Ethereal or astral creatures do not trigger the alarm unless the intruder becomes material while in the warded area.",,
+,Trans,,,,,,,,2,Alter Self,"As change self, plus more drastic changes.",vs,1 action,Personal,10 minutes/level,--,--,"The character can alter the character's appearance and form-including clothing and equipment-to appear taller or shorter, thin, fat, or in between. The assumed form must be corporeal. The character's body can undergo a limited physical transmutation, including adding or subtracting one or two limbs, and the character's weight can be changed up to one-half. If the form selected has wings, the character can fly at a speed of 30 feet with poor maneuverability. If the form has gills, the character can breathe underwater.
+
+The character's attack rolls, natural armor bonus, and saves do not change. The spell does not confer special abilities, attack forms, defenses, ability scores, or mannerisms of the chosen form. Once the new form is chosen, it remains for the duration of the spell. If the character is slain, the character automatically returns to the character's normal form.
+
+If the character uses this spell to create a disguise, the character gets a +10 bonus on the character's Disguise check.",,
+,Div,,,,,,,,6,Analyze Dweomer,Reveals magical aspects of subject.,vsf,8 hours,Close (25 ft. + 5 ft./2 levels),1 round/level,See text,No,"The character discerns spells and magical properties present in a creature or object. One property, spell, or power is revealed each round, from lowest level (or weakest power) to highest (or strongest). For each spell or power, the character makes a caster level check (1d20 + caster level). If the result is equal to or higher than the spell's or power's caster level, the character identifies it. Otherwise, the character fails to identify that spell or power, and the character can check for the next one next round.
+
+Analyze dweomer does not function when used on an artifact.
+
+After the character analyzes one object or creature, the spell ends, even if its duration has not expired yet. The character must make a Fortitude save (DC 21) when the spell ends or be exhausted and unable to do anything but rest for the next 1d8 hours.
+
+Focus: The focus must be worth at least 1,500 gp.",,
+,Ench,charm,mind-affecting,,,1,,1,,Animal Friendship,Gains permanent animal companions.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,Trans,,,,,5,,,5,Animal Growth,"One animal/two levels doubles in size, HD.",vs,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,None,Yes,,,
+,Ench,compulsion,mind-affecting,,2,2,,2,,Animal Messenger,Sends a Tiny animal to a specific place.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 day/level,None,Yes,,,
+,Trans,,,,,8,,,,Animal Shapes,One ally/level polymorphs into chosen animal.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,None,Yes,,,
+,,,,2,,2,,,,Animal Trance,Fascinates 2d6 HD of animals.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Concentration,Will negates,Yes,,,
+,,,,,3,,,,5,Animate Dead,Creates undead skeletons and zombies.,vsm,1 action,Touch,Instantaneous,None,No,,,
+,,,,,6,,,,,Animate Objects,Objects attack your foes.,vs,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,No,,,
+,,,,,,,,,1,Animate Rope,Makes a rope move at your command.,vs,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,No,,,
+,,,,,6,6,,,,Antilife Shell,10-ft. field hedges out living creatures.,vsd,1 full round,10 ft.,10 minutes/level,None,Yes,,,
+,,,,,8,,,,6,Antimagic Field,Negates magic within 10 ft.,vsmd,1 action,10 ft.,10 minutes/level,None,Text,,,
+,,,,,,9,,,8,Antipathy,Object or location affected by spell repels certain creatures.,vsmd,1 hour,Close (25 ft. + 5 ft./2 levels),2 hours/level,Will partial,Yes,,,
+,,,,,,4,,,,Antiplant Shell,Keeps animated plants at bay.,vsd,1 action,10 ft.,10 minutes/level,None,Yes,,,
+,,,,,,,,,4,Arcane Eye,Invisible floating eye moves 30 ft./round.,vsm,10 minutes,Unlimited,1 minute/level,None,No,,,
+,,,,,,,,,2,Arcane Lock,Magically locks a portal or chest.,vsm,1 action,Touch,Permanent,None,No,,,
+,,,,,,,,,0,Arcane Mark,Inscribes a personal rune (visible or invisible).,vs,1 action,0 ft.,Permanent,None,No,,,
+,,,,,9,,,,9,Astral Projection,Projects you and companions into Astral Plane.,vsm,30 minutes,Touch,See text,None,Yes,,,
+,,,,,5,5,,,,Atonement,Removes burden of misdeeds from subject.,vsmfdx,1 hour,Touch,Instantaneous,None,Yes,,,
+,,,,,2,,,,,Augury,Learns whether an action will be good or bad.,vsf,1 action,Personal,Instantaneous,--,--,,,
+,,,,,,5,,,,Awaken,Animal or tree gains human intellect.,vsfx,One day,Touch,Instantaneous,Will negates,Yes,,,
+,,,,,,,,,8,B.'s Clenched Fist,Large hand attacks your foes.,vsfd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,,,
+,,,,,,,,,9,B.'s Crushing Hand,"As Bigby's interposing hand, but stronger.",vsmfd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,,,
+,,,,,,,,,6,B.'s Forceful Hand,Hand pushes creatures away.,vsf,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,,,
+,,,,,,,,,7,B.'s Grasping Hand,"Hand provides cover, pushes, or grapples.",vsfd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,,,
+,,,,,,,,,5,B.'s Interposing Hand,Hand provides 90% cover against one opponent.,vsf,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,,,
+,,,,,1,,,,,Bane,"Enemies suffer -1 attack, -1 on saves against fear.",vsd,1 action,50 ft.,1 minute/level,Will negates,Yes,,,
+,,,,,6,,,,7,Banishment,Banishes 2 HD/level extraplanar creatures.,vsf,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,,2,,,,Barkskin,Grants +3 natural armor bonus (or higher).,vsd,1 action,Touch,10 minutes/level,None,Yes,,,
+,,,,3,3,,,,4,Bestow Curse,"-6 to an ability; -4 on attacks, saves, and checks; or 50% chance of losing each action.",vs,1 action,Touch,Permanent,Will negates,Yes,,,
+,,,,,,,,,8,Binding,Array of techniques to imprison a creature.,vsm,1 minute,Close (25 ft. + 5 ft./2 levels),See text,Will negates,Yes,,,
+,,,,,6,,,,,Blade Barrier,Blades encircling you deal 1d6 damage/level.,vs,1 full round,Medium (100 ft. + 10 ft./level),10 minutes/level,Reflex negates,Yes,,,
+,,,,,7,,,,,Blasphemy,"Kills, paralyzes, weakens, or dazes nonevil subjects.",v,1 action,30 ft.,Instantaneous,None,Yes,,,
+,,,,,1,,1,,,Bless,Allies gain +1 attack and +1 on saves against fear.,vsd,1 action,50 ft.,1 minute/level,None,Yes,,,
+,,,,,1,,1,,,Bless Water,Makes holy water.,vsm,1 minute,Touch,Instantaneous,Will negates,Yes,,,
+,,,,,,,1,,,Bless Weapon,Weapon gains +1 bonus.,vs,1 action,Touch,1 minute/level,None,No,,,
+,,,,2,3,,,,2,Blindness/Deafness,Makes subject blind or deaf.,v,1 action,Medium (100 ft. + 10 ft./level),Permanent,Fortitude negates,Yes,,,
+,,,,3,,,,,3,Blink,You randomly vanish and reappear for 1 round/level.,vs,1 action,Personal,1 round/level,--,--,,,
+,,,,2,,,,,2,Blur,Attacks miss subject 20% of the time.,v,1 action,Touch,1 minute/level,Will negates,Yes,,,
+,,,,4,5,,,,,Break Enchantment,"Frees subjects from enchantments, alterations, curses, and petrification.",vs,1 minute,Close (25 ft. + 5 ft./2 levels),Instantaneous,See text,No,,,
+,,,,2,2,,,,2,Bull's Strength,Subject gains 1d4+1 Str for 1 hr./level.,vsmd,1 action,Touch,1 hour/level,Will negates,Yes,,,
+,,,,,,,,,1,Burning Hands,1d4 fire damage/level (max: 5d4).,vs,1 action,10 ft.,Instantaneous,Reflex half,Yes,,,
+,,,,,,3,,,,Call Lightning,Directs lightning bolts (1d10/level) during storms.,vs,"10 minutes, plus 1 action per bolt called",Long (400 ft. + 40 ft./level),10 minutes/level,Reflex half,Yes,,,
+,,,,,,1,,,,Calm Animals,"Calms 2d4 +1/level HD of animals, beasts, and magical beasts.",vs,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Will negates,Yes,,,
+,,,,,2,,,,,Calm Emotions,"Calms 1d6 subjects/level, negating emotion effects.",vsd,1 action,Medium (100 ft. + 10 ft./level),"Concentration, up to 1 round/level",Will negates,Yes,,,
+,,,,2,,,,,2,Cat's Grace,Subject gains 1d4+1 Dex for 1 hr./level.,vsm,1 action,Touch,1 hour/level,Will Negates,Yes,,,
+,,,,1,1,,,,1,Cause Fear,One creature flees for 1d4 rounds.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1d4 rounds,Will negates,Yes,,,
+,,,,,,,,,6,Chain Lightning,1d6 damage/level; secondary bolts.,vsf,1 action,Long (400 ft. + 40 ft./level),Instantaneous,Reflex half,Yes,,,
+,,,,,,,,,1,Change Self,Changes your appearance.,vs,1 action,Personal,10 minutes/level,--,--,"The character can make his or herself—including clothing, armor, weapons, and equipment—look different. The character can seem 1 foot shorter or taller, thin, fat, or in between. The character cannot change the character's body type. Otherwise, the extent of the apparent change is up to the character.
+
+The spell does not provide the abilities or mannerisms of the chosen form. It does not alter the perceived tactile (touch) or audible (sound) properties of the character or the character's equipment.
+
+If the character uses this spell to create a disguise, the character gets a +10 bonus on the Disguise check.
+
+Note: Creatures get Will saves to recognize the glamer as an illusion if they interact with it.",,
+,,,,,,7,,,,Changestaff,Your staff becomes a treant on command.,vsf,1 full round,Touch,1 hour/level,None,No,,,
+,,,,,,,,,,Chaos Hammer,Damages and staggers lawful creatures.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Will half,Yes,,,
+,,,,3,,,,,4,Charm Monster,Makes monster believe it is your ally.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1 day/level,Will negates,Yes,,,
+,,,,1,,,,,1,Charm Person,Makes one person your friend.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,Will negates,Yes,"This charm makes a humanoid of Medium-size or smaller regard the character as a trusted friend and ally. If the creature is currently being threatened or attacked by the character or the character's allies, however, he receives a +5 bonus on his saving throw.
+
+The spell does not enable the character to control the charmed person as if the person were an automaton, but the subject perceives the character's words and actions in the most favorable way. The character can try to give the subject orders, but the character must win an opposed Charisma check to convince the subject to do anything he or she wouldn’t ordinarily do. (Retries not allowed.) A charmed person never obeys suicidal or obviously harmful orders. Any act by the character or the character's apparent allies that threatens the charmed person breaks the spell. Note also that the character must speak the person’s language to communicate the character's commands, or else be good at pantomiming.",,
+,,,,,,2,,,,Charm Person or Animal,Makes one person or animal your friend.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,Will negates,Yes,,,
+,,,,,,2,,,,Chill Metal,Cold metal damages those who touch it.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),7 rounds,Will negates,Yes,,,
+,,,,,,,,,1,Chill Touch,1 touch/level deals 1d6 damage and possibly 1 Str damage.,vs,1 action,Touch,Instantaneous,Fortitude partial,Yes,,,
+,,,,,,,,,6,Circle of Death,Kills 1d4 HD/level.,vsm,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Fortitude negates,Yes,,,
+,,,,,5,,,,,Circle of Doom,Deals 1d8 +1/level damage in all directions.,vs,1 action,20 ft.,Instantaneous,Fortitude half,Yes,,,
+,,,,3,,,,,3,Clairaudience/Clairvoyance,Hear or see at a distance for 1 min./level.,vsfd,1 action,See text,1 minute/level,None,No,"Clairaudience/clairvoyance enables the character to concentrate upon some locale and hear or see (the character's choice) almost as if the character were there. Distance is not a factor, but the locale must be known—a place familiar to the character or an obvious one. The spell does not allow magically enhanced senses to work through it. If the chosen locale is magically dark, the character sees nothing. If it is naturally pitch black, the character can see in a 10-foot radius around the center of the spell’s effect. Lead sheeting or magical protection blocks the spell, and the character senses that the spell is so blocked. The spell creates an invisible sensor that can be dispelled. The spell functions only on the plane of existence the character is currently occupying.",,
+,,,,,8,,,,,Cloak of Chaos,"+4 AC, +4 resistance, and SR 25 against lawful spells.",vsf,1 action,20 ft.,1 round/level,See text,Yes,,,
+,,,,,,,,,8,Clone,Duplicate awakens when original dies.,vsmf,10 minutes,0 ft.,Instantaneous,None,No,,,
+,Conj,,,,,,,,5,Cloudkill,Kills 3 HD or less; 4-6 HD save or die.,vs,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,See text,Yes,,,
+,,,,,,,,,1,Color Spray,"Knocks unconscious, blinds, or stuns 1d6 weak creatures.",vsm,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,"A cone of colors springs forth from the character's hand. The closest 1d6 creatures in the cone are affected. The spell affects each subject according to its HD:
+
+Up to 2: Unconscious for 2d4 rounds, then blinded for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.)
+
+3 or 4: Blinded for 1d4 rounds, then stunned for 1 round.
+
+5 or more: Stunned for 1 round.
+
+In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus to attackers’ attack rolls (they are effectively invisible), moves at half speed, and suffers a –4 penalty on Search checks and most Strength- and Dexterity-based skills.
+
+A stunned creature can't act and loses any Dexterity bonus to AC. Attackers gain +2 bonuses to attack it.
+
+Sightless creatures are not affected by color spray. ",,
+,,,,,1,,,,,Command,One subject obeys one-word command for 1 round.,v,1 action,Close (25 ft. + 5 ft./2 levels),1 round,Will negates,Yes,,,
+,,,,,,8,,,,Command Plants,Plants animate and vegetation entangles.,v,1 action,Close (25 ft. + 5 ft./2 levels),1 day/level or 1 hour/level,See text,Text,,,
+,,,,,5,,,,,Commune,Deity answers one yes-or-no question/level.,vsmdx,10 minutes,Personal,1 round/level,--,--,,,
+,,,,,,5,,,,Commune with Nature,Learn about terrain for one mile/level.,vs,10 minutes,Personal,Instantaneous,--,--,,,
+,,,,,1,,,,1,Comprehend Languages,Understands all spoken and written languages.,vsmd,1 action,Personal,10 minutes/level,--,--,,,
+,,,,,,,,,5,Cone of Cold,1d6 cold damage/level.,vsmd,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Reflex half,Yes,,,
+,,,,3,,,,,4,Confusion,Makes subject behave oddly for 1 round/level.,vsmd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will negates,Yes,,,
+,,,,,2,,,,,Consecrate,"Fills area with positive energy, making undead weaker.",vsmd,1 action,Close (25 ft. + 5 ft./2 levels),2 hours/level,None,No,,,
+,,,,5,,,,,5,Contact Other Plane,Ask question of extraplanar entity.,v,10 minutes,Personal,Concentration,--,--,,,
+,,,,,3,3,,,4,Contagion,Infects subject with chosen disease.,vs,1 action,Touch,Instantaneous,Fortitude negates,Yes,,,
+,,,,,,,,,6,Contingency,Sets trigger condition for another spell.,vsmf,At least 10 minutes,Personal,1 day/level or until discharged,--,--,,,
+,,,,,3,,,,2,Continual Flame,"Makes a permanent, heatless torch.",vsm,1 action,Touch,Permanent,None,No,,,
+,,,,,,4,,3,,Control Plants,Talk to and control plants & fungi.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Will negates,No,,,
+,,,,,,,,,7,Control Undead,Undead don't attack you while under your command.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Will negates,Yes,,,
+,,,,5,4,,,,6,Control Water,"Raises, lowers, or parts bodies of water.",vsmd,1 action,Long (400 ft. + 40 ft./level),10 minutes/level,None,No,,,
+,,,,6,7,7,,,6,Control Weather,Changes weather in local area.,vs,10 minutes,Two miles,4d12 hours,None,No,,,
+,,,,,,5,,,,Control Winds,Change wind direction and speed.,vs,1 action,40 ft./level,10 minutes/level,Fortitude negates,No,,,
+,,,,,3,,,,,Create Food and Water,Feeds three humans (or one horse)/level.,vs,10 minutes,Close (25 ft. + 5 ft./2 levels),24 hours,None,No,,,
+,,,,,8,,,,,Create Greater Undead,"Mummies, spectres, vampires, or ghosts.",vsm,1 hour,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,,,,,6,,,,,Create Undead,"Ghouls, shadows, ghasts, wights, or wraiths.",vsm,1 hour,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,,,,,0,0,1,,,Create Water,Creates 2 gallons/level of pure water.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,,,,,,7,,,,Creeping Doom,Carpet of insects attacks at your command.,vs,1 full round,Close (25 ft. + 5 ft./2 levels),1 minute/level,None,No,,,
+,,,,4,4,5,,,,Cure Critical Wounds,Cures 4d8 +1/level damage (max +20).,vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,1,1,1,1,2,,Cure Light Wounds,Cures 1d8 +1/level damage (max +5).,vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,,0,0,,,,Cure Minor Wounds,Cures 1 point of damage.,vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,2,2,3,3,3,,Cure Moderate Wounds,Cures 2d8 +1/level damage (max +10).,vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,3,3,4,4,4,,Cure Serious Wounds,Cures 3d8 +1/level damage (max +15).,vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,,1,,,,,Curse Water,Makes unholy water.,vsm,1 minute,Touch,Instantaneous,Will negates,Yes,,,
+,Conj,,,,,,,,7,D.'s Instant Summons,Prepared object appears in your hand.,vsm,1 action,See text,Permanent until discharged,None,No,,,
+,,,,0,,,,,0,Dancing Lights,Figment torches or other lights.,vs,1 action,Medium (100 ft. + 10 ft./level),1 minute,Will disbelief,No,,,
+,,,,2,2,,,,2,Darkness,20-ft. radius of supernatural darkness.,vmd,1 action,Touch,10 minutes/level,None,No,,,
+,,,,,,,,,2,Darkvision,See 60 ft. in total darkness.,vsm,1 action,Touch,1 hour/level,None,Yes,,,
+,,,,2,3,,,,2,Daylight,60-ft. radius of bright light.,vs,1 action,Touch,10 minutes/level,None,No,,,
+,,,,0,,,,,0,Daze,Creature loses next action.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 round,Will negates,Yes,,,
+,,,,,2,,,,,Death Knell,"Kills dying creature; you gain 1d8 temporary hp, +2 Str, and +1 level.",vs,1 action,Touch,Instantaneous/10 minutes per target HD,Will negates,Yes,,,
+,,,,,4,5,4,,,Death Ward,Grants immunity to all death spells and effects.,vsd,1 action,Touch,10 minutes/level,None,Yes,,,
+,,,,,1,,,,,Deathwatch,Sees how wounded subjects within 30 ft. are.,vs,1 action,Close (25 ft. + 5 ft./2 levels),10 minutes/level,None,No,,,
+,,,,,3,,,,,Deeper Darkness,Object sheds absolute darkness in 60-ft. radius.,vs,1 action,Touch,1 day/level,None,No,,,
+,,,,2,2,2,2,1,,Delay Poison,Stops poison from harming subject for 1 hour/level.,vsd,1 action,Touch,1 hour/level,Fortitude negates,Yes,,,
+,,,,,,,,,7,Delayed Blast Fireball,1d6 fire damage/level; you can delay blast for 5 rounds.,vsm,1 action,Long (400 ft. + 40 ft./level),Up to 5 rounds,Reflex half,Yes,,,
+,,,,,,,,,8,Demand,"As sending, plus you can send suggestion.",vsmd,10 minutes,See text,1 round,Will partial,Yes,,,
+,,,,,2,,,,,Desecrate,"Fills area with negative energy, making undead stronger.",vsmd,1 action,Close (25 ft. + 5 ft./2 levels),2 hours/level,None,Yes,,,
+,,,,,7,,,,,Destruction,Kills subject and destroys remains.,vsf,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Fortitude partial,Yes,,,
+,,,,,,1,,1,,Detect Animals or Plants,Detects species of animals or plants.,vs,1 action,Long (400 ft. + 40 ft./level),"Concentration, up to 10 minutes/level",None,No,,,
+,,,,,1,,,2,,Detect Chaos,"Reveals creatures, spells, or objects.",vsd,1 action,60 ft.,"Concentration, up to 10 minutes/level",None,No,,,
+,,,,,1,,,2,,Detect Evil,"Reveals creatures, spells, or objects.",vsd,1 action,60 ft.,"Concentration, up to 10 minutes/level",None,No,,,
+,,,,,1,,,2,,Detect Good,"Reveals creatures, spells, or objects.",vsd,1 action,60 ft.,"Concentration, up to 10 minutes/level",None,No,,,
+,,,,,1,,,2,,Detect Law,"Reveals creatures, spells, or objects.",vsd,1 action,60 ft.,"Concentration, up to 10 minutes/level",None,No,,,
+,,,,0,0,0,,,0,Detect Magic,Detects spells and magic items within 60 ft.,vs,1 action,60 ft.,"Concentration, up to 1 minute/level",None,No,"The character can detect magical auras. The amount of information revealed depends on how long the character studies a particular area or subject:
+
+    1st Round: Presence or absence of magical auras.
+    2nd Round: Number of different magical auras and the strength of the strongest aura.
+    3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, the character can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.)
+
+Magical areas, multiple types of magic, or strong local magical emanations may confuse or conceal weaker auras.
+
+Aura Strength: An aura’s magical power and strength depend on a spell’s functioning spell level or an item’s caster level.
+Functioning
+Spell Level  Item
+Caster Level  Aura
+Strength
+0-level or lingering
+aura  Lingering aura  Dim
+1st-3rd  1st-5th  Faint
+4th-6th  6th-11th  Moderate
+7th-9th  12th-20th  Strong
+Artifact or deity-level
+magic  Beyond mortal caster  Overwhelming
+
+If an aura falls into more than one category, detect magic indicates the stronger of the two.
+
+Length Aura Lingers: How long the aura lingers depends on its original strength:
+Aura Strength  Duration
+Faint                 1d6 minutes
+Moderate          1d6 X 10 minutes
+Strong              1d6 hours
+Overwhelming  1d6 days
+
+Note: Each round, the character can turn to detect things in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it. Outsiders and elementals are not magical in themselves, but if they are conjured, the conjuration spell registers.",,
+,,,,,0,0,1,,0,Detect Poison,Detects poison in one creature or small object.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,,,,4,,,,,4,Detect Scrying,Alerts you of magical eavesdropping.,vsm,1 action,120 ft.,24 hours,None,No,,,
+,,,,1,,,,,1,Detect Secret Doors,Reveals hidden doors within 60 ft.,vs,1 action,60 ft.,"Concentration, up to 1 minute/level",None,No,,,
+,,,,,,1,,1,,Detect Snares and Pits,Reveals natural or primitive traps.,vs,1 action,60 ft.,"Concentration, up to 10 minutes/level",None,No,,,
+,,,,2,,,,,2,Detect Thoughts,"Allows ""listening"" to surface thoughts.",vsfd,1 action,60 ft.,"Concentration, up to 1 minute/level",Will negates,No,,,
+,,,,,1,,1,,1,Detect Undead,Reveals undead within 60 ft.,vsmd,1 action,60 ft.,"Concentration, up to 1 minute/ level",None,No,,,
+,,,,,7,,,,,Dictum,"Kills, paralyzes, weakens, or dazes nonlawful subjects.",v,1 action,30 ft.,Instantaneous,None,Yes,,,
+,,,,4,,,,,4,Dimension Door,Teleports you and up to 500 lb.,v,1 action,Long (400 ft. + 40 ft./level),Instantaneous,None and Will negates,Y/N,,,
+,,,,,4,,,,4,Dimensional Anchor,Bars extradimensional movement.,vs,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,None,Yes,,,
+,,,,,,3,,3,,Diminish Plants,Reduces size or blights growth of normal plants.,vsd,1 action,See text,Instantaneous,None,No,,,
+,,,,,4,,3,,,Discern Lies,Reveals deliberate falsehoods.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),"Concentration, up to 1 round/level",Will negates,No,,,
+,,,,,8,,,,8,Discern Location,Exact location of creature or object.,vsd,10 minutes,Unlimited,Instantaneous,None,No,,,
+,,,,,,,,,6,Disintegrate,Makes one creature or object vanish.,vsmd,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Fortitude partial,Yes,,,
+,,,,4,4,,,,5,Dismissal,Forces a creature to return to native plane.,vsfd,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,5,,,,,Dispel Chaos,+4 bonus against attacks.,vsd,1 action,Touch,"1 round/level or until discharged, whichever comes first",See text,Text,,,
+,,,,,5,,4,,,Dispel Evil,+4 bonus against attacks.,vsd,1 action,Touch,"1 round/level or until discharged, whichever comes first",See text,Text,,,
+,,,,,5,,,,,Dispel Good,+4 bonus against attacks.,vsd,1 action,Touch,"1 round/level or until discharged, whichever comes first",See text,Text,,,
+,,,,,5,,,,,Dispel Law,+4 bonus against attacks.,vsd,1 action,Touch,"1 round/level or until discharged, whichever comes first",See text,Text,,,
+,,,,3,3,4,3,,3,Dispel Magic,Cancels magical spells and effects.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None,No,,,
+,,,,3,,,,,3,Displacement,Attacks miss subject 50%.,vm,1 action,Touch,1 round/level,Will negates,Yes,,,
+,,,,,,,,,0,Disrupt Undead,Deals 1d6 damage to one undead.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,Yes,,,
+,,,,,4,,,,,Divination,Provides useful advice for specific proposed actions.,vsm,10 minutes,Personal,Instantaneous,--,--,,,
+,,,,,1,,1,,,Divine Favor,"You gain attack, damage bonus, +1/three levels.",vsd,1 action,Personal,1 minute,--,--,,,
+,,,,,4,,,,,Divine Power,"You gain attack bonus, 18 Str, and 1 hp/level.",vsd,1 action,Personal,1 round/level,--,--,,,
+,,,,,,3,,,,Dominate Animal,Subject animal obeys silent mental commands.,vs,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will negates,Yes,,,
+,,,,,,,,,9,Dominate Monster,"As dominate person, but any creature.",vs,1 action,Medium (100 ft. + 10 ft./level),1 day/level,Will negates,Yes,,,
+,,,,4,,,,,5,Dominate Person,Controls humanoid telepathically.,vs,1 action,Medium (100 ft. + 10 ft./level),1 day/level,Will negates,Yes,,,
+,,,,,1,,,,,Doom,"One subject suffers -2 on attacks, damage, saves, and checks.",vsd,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,Will negates,Yes,,,
+,,,,5,,,,,5,Dream,Sends message to anyone sleeping.,vs,1 minute,Unlimited,See text,None,Yes,,,
+,Conj,,,,,,,,4,E.'s Black Tentacles,1d4 +1/level tentacles grapple randomly within 15 ft.,vsm,1 action,Medium (100 ft. + 10 ft./level),1 hour/level,None,No,,,
+,,,,,8,9,,,,Earthquake,Intense tremor shakes 5-ft./level radius.,vsd,1 action,Long (400 ft. + 40 ft./level),1 round,See text,No,,,
+,,,,,,9,,,,Elemental Swarm,"Summons 2d4 Large, 1d4 Huge elementals.",vs,10 minutes,Medium (100 ft. + 10 ft./level),10 minutes/level,None,No,,,
+,,,,3,,,,,4,Emotion,Arouses strong emotion in subject.,vs,1 action,Medium (100 ft. + 10 ft./level),Concentration,Will negates,Yes,,,
+,,,,,2,,,,2,Endurance,Gain 1d4+1 Con for 1 hr./level.,vsd,1 action,Touch,1 hour/level,None,Yes,,,
+,,,,,1,1,1,,1,Endure Elements,Ignores 5 damage/round from one energy type.,vs,1 action,Touch,24 hours,None,Yes,,,
+,,,,,9,,,,9,Energy Drain,Subject gains 2d4 negative levels.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Fortitude negates,Yes,,,
+,,,,,,,,,4,Enervation,Subject gains 1d4 negative levels.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None,Yes,,,
+,,,,,,,,,1,Enlarge,Object or creature grows +10%/level (max +50%).,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Fortitude negates,Yes,,,
+,,,,,,1,,1,,Entangle,Plants entangle everyone in 40-ft.-radius circle.,vsd,1 action,Long (400 ft. + 40 ft./level),1 minute/level,Reflex,No,,,
+,,,,2,2,,,,,Enthrall,Captivates all within 100 ft. + 10 ft./level.,vs,1 full round,Medium (100 ft. + 10 ft./level),Up to 1 hour,Will negates,Yes,,,
+,,,,,1,,,,,Entropic Shield,Ranged attacks against you suffer 20% miss chance.,vs,1 action,Personal,1 minute/level,--,--,,,
+,,,,1,,,,,1,Erase,Mundane or magical writing vanishes.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,See text,No,,,
+,,,,,5,,,,7,Ethereal Jaunt,You become ethereal for 1 round/level.,vs,1 action,Personal,1 round/level,--,--,,,
+,,,,,6,,,,8,Etherealness,Travel to Ethereal Plane with companions.,vs,1 action,Touch,1 minute/level,--,Yes,,,
+,,,,1,,,,,1,Expeditious Retreat,Doubles your speed.,vs,1 action,Personal,1 minute/level,--,--,,,
+,,,,,,,,,3,Explosive Runes,Deals 6d6 damage when read.,vs,1 action,Touch,Until discharged,See text,Yes,,,
+,,,,6,,,,,6,Eyebite,"Charm, fear, sicken or sleep one subject.",vs,1 action,Close (25 ft. + 5 ft./2 levels),1 round/three levels,See text,Yes,,,
+,,,,,,,,,5,Fabricate,Transforms raw materials into finished items.,vsm,See text,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,,,,,,1,,,,Faerie Fire,"Outlines subjects with light, canceling blur, concealment, etc.",vsd,1 action,Long (400 ft. + 40 ft./level),1 minute/level,None,Yes,,,
+,,,,5,,,,,5,False Vision,Fools scrying with an illusion.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,None,No,,,
+,,,,3,,,,,4,Fear,Subjects within cone flee for 1 round/level.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,Will negates,Yes,,,
+,,,,1,,,,,1,Feather Fall,Objects or creatures fall slowly.,v,See text,Close (25 ft. + 5 ft./2 levels),Until landing or 1 round/level,Will negates,Yes,,,
+,,,,,,,,,5,Feeblemind,Subject's Int drops to 1.,vsm,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Will negates,Yes,,,
+,,,,,6,6,,,,Find the Path,Shows most direct way to a location.,vsf,3 rounds,Personal or touch,10 minutes/level,None or Will negates,Y/N,,,
+,,,,,2,,,,,Find Traps,Notice traps as a rogue does.,vs,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,--,--,,,
+,,,,,,8,,,7,Finger of Death,Kills one subject.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Fortitude partial,Yes,,,
+,,,,,,6,,,,Fire Seeds,Acorns and berries become grenades and bombs.,vsm,1 action/seed,Touch,10 minutes/level or until used,Reflex half,Yes,,,
+,,,,,,,,,4,Fire Shield,Creatures attacking you take fire damage; you're protected from heat or cold.,vsmd,1 action,Personal,1 round/level,None,--,,,
+,,,,,8,7,,,,Fire Storm,Deals 1d6 fire damage/level.,vs,1 full round,Medium (100 ft. + 10 ft./level),Instantaneous,Reflex half,Yes,,,
+,,,,,,2,,,4,Fire Trap,Opened object deals 1d4 +1/level damage.,vsm,10 minutes,Touch,Permanent until discharged,Reflex half,Yes,,,
+,,,,,,,,,3,Fireball,"1d6 damage per level, 20-ft. radius.",vsm,1 action,Long (400 ft. + 40 ft./level),Instantaneous,Reflex half,Yes,,,
+,Conj,,,,,,,,3,Flame Arrow,Shoots flaming projectiles (extra damage) or fiery bolts (4d6 damage).,vsm,1 action,Medium (100 ft. + 10 ft./level),1 round/Instantaneous,See text,Yes,,,
+,,,,,,2,,,,Flame Blade,Touch attack deals 1d8 +1/two levels damage.,vsd,1 action,Touch,1 minute/level,None,Yes,,,
+,,,,,5,4,,,,Flame Strike,Smites foes with divine fire (1d6/level).,vsd,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Reflex half,Yes,,,
+,,,,,,2,,,2,Flaming Sphere,"Rolling ball of fire, 2d6 damage, lasts 1 round/level.",vsmd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Reflex negates,Yes,,,
+,,,,0,,0,,,0,Flare,Dazzles one creature (-1 attack).,v,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Fortitude negates,Yes,,,
+,,,,,,,,,6,Flesh to Stone,Turns subject creature into statue.,vsm,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Fortitude negates,Yes,,,
+,,,,,,,,,3,Fly,Subject flies at speed of 90.,vsfd,1 action,Touch,10 minutes/level,None,Yes,,,
+,Conj,,,,,,,,2,Fog Cloud,Fog obscures vision.,vs,1 action,Medium (100 ft. + 10 ft./level),10 minutes/level,None,No,,,
+,,,,,6,,,,,Forbiddance,Denies area to creatures of another alignment.,vsmd,6 rounds,Medium (100 ft. + 10 ft./level),Permanent,See text,Yes,,,
+,,,,,,,,,7,Forcecage,Cube of force imprisons all inside.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),2 hours/level,None,No,,,
+,,,,,,9,,,9,Foresight,"""Sixth sense"" warns of impending danger.",vsmd,1 action,Personal or touch,10 minutes/level,None or Will negates,Y/N,,,
+,,,,,,,,,9,Freedom,Releases creature suffering imprisonment.,vs,1 action,See text,Instantaneous,None,Yes,,,
+,,,,,4,4,4,4,,Freedom of Movement,Subject moves normally despite impediments.,vsmd,1 action,Personal or touch,10 minutes/level,None,Y/N,,,
+,,,,3,,,,,3,Gaseous Form,Subject becomes insubstantial and can fly slowly.,smd,1 action,Touch,2 minutes/level,None,No,,,
+,Conj,,,,9,,,,9,Gate,Connects two planes for travel or summoning.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None,No,,,
+,,,,6,6,,,,6,Geas/Quest,"As lesser geas, plus it affects any creature.",v,1 action,Close (25 ft. + 5 ft./2 levels),1 day/level or until discharged,None,Yes,,,
+,,,,,2,,,,3,Gentle Repose,Preserves one corpse.,vsmd,1 action,Touch,1 day/level,Will negates,Yes,,,
+,,,,0,,,,,0,Ghost Sound,Figment sounds.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,Will disbelief,No,,,
+,,,,,,,,,2,Ghoul Touch,"Paralyzes one subject, who exudes stench (-2 penalty) nearby.",vsm,1 action,Touch,1d6+2 rounds,Fortitude negates,Yes,,,
+,,,,,4,4,,,,Giant Vermin,Turns insects into giant vermin.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,None,Yes,,,
+,Conj,,,2,,,,,2,Glitterdust,"Blinds creatures, outlines invisible creatures.",vsm,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will negates,Yes,"A cloud of glittering golden particles covers everyone and everything in the area, blinding creatures and visibly outlining invisible things. Blindness lasts for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades.
+
+In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus to opponents’ attack rolls (they are effectively invisible), moves at half speed, and suffers a –4 penalty on most Strength- and Dexterity-based skills.",,
+,,,,,,,,,6,Globe of Invulnerability,"As minor globe, plus 4th level.",vsm,1 action,10 ft.,1 round/level,None,No,,,
+,,,,,3,,,,,Glyph of Warding,Inscription harms those who pass it.,vsm,10 minutes,Touch,Until discharged,See text,Yes,,,
+,,,,,,1,,,,Goodberry,2d4 berries each cure 1 hp (max 8 hp/24 hours).,vsd,1 action,Touch,1 day/level,None,Yes,,,
+,Conj,,,1,,,,,1,Grease,Makes 10-ft. square or one object slippery.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,See text,No,"A grease spell covers a solid surface with a layer of slippery grease. Any creature entering the area or caught in it when the spell is cast must make a successful Reflex save or slip, skid, and fall. Those that successfully save can move at half speed across the surface. However, those that remain in the area must each make a new saving throw every round to avoid falling and to be able to move. The DM should adjust saving throws by circumstance.
+
+The spell can also be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while objects wielded or employed by creatures receive a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature immediately drops the item. A saving throw must be made each round the creature attempts to pick up or use the greased item.",,
+,,,,,5,,,,,Greater Command,"As command, but affects one subject/level.",v,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,Will negates,Yes,,,
+,,,,5,6,6,,,6,Greater Dispelling,"As dispel magic, but +20 on check.",vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None,No,,,
+,,,,,6,,,,,Greater Glyph of Warding,"As glyph of warding, but up to 10d8 damage or 6th level spell.",vsm,10 minutes,Touch,Until discharged,See text,Yes,,,
+,,,,,,3,,3,,Greater Magic Fang,One natural weapon of subject creature gets +1 bonus to attack and damage per three caster levels (max +5),vsd,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,Will negates,Yes,,,
+,,,,3,4,,3,,3,Greater Magic Weapon,+1/three levels (max +5).,vsmd,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,Will negates,Yes,,,
+,,,,,8,,,,,Greater Planar Ally,"As lesser planar ally, but up to 24 HD.",vsd,10 minutes,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,Conj,,,,,,,,8,Greater Planar Binding,"As lesser planar binding, but up to 24 HD.",vsm,10 minutes,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,7,,,,,Greater Restoration,"As restoration, plus restores all levels and ability scores",vsx,10 minutes,Touch,Instantaneous,Will negates,Yes,,,
+,,,,6,7,7,,,7,Greater Scrying,"As scrying, but faster and longer.",vs,1 action,See text,1 hour/level,None,No,,,
+,,,,,,,,,5,Greater Shadow Conjuration,"As shadow conjuration, but up to 4th level and 40% real.",vs,1 action,See text,See text,Will disbelief,No,,,
+,,,,,,,,,6,Greater Shadow Evocation,"As shadow evocation, but up to 5th level.",vs,1 action,See text,See text,Will disbelief,Yes,,,
+,,,,,,,,,6,Guards and Wards,Array of magic effects protect area.,vsmf,30 minutes,Anywhere within the area to be warded,2 hours/level,None,Text,,,
+,,,,,0,0,,,,Guidance,"+1 on one roll, throw, or check.",vs,1 action,Touch,1 minute or until discharged,None,Yes,,,
+,,,,3,,,,,3,Gust of Wind,Blows away or knocks down smaller creatures.,vsf,1 action,Medium (100 ft. + 10 ft./level),1 round,Fortitude negates,Yes,,,
+,,,,,5,5,,,,Hallow,Designates location as holy.,vsmd,One day,Touch,Instantaneous,None,Text,,,
+,,,,4,,,,,4,Hallucinatory Terrain,"Makes one type of terrain appear like another (field into forest, etc.).",vsm,10 minutes,Long (400 ft. + 40 ft./level),2 hours/level,Will disbelief,No,,,
+,,,,,,,,,3,Halt Undead,Immobilizes undead for 1 round/level.,vsm,1 action,Medium (100 ft. + 10 ft./level),1 round/level,See text,Yes,,,
+,,,,,6,7,,,,Harm,Subject loses all but 1d4 hp.,vs,1 action,Touch,Instantaneous,None,Yes,,,
+,,,,3,,,,,3,Haste,Extra partial action and +4 AC.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,Fortitude negates,Yes,"The transmuted creature moves and acts more quickly than normal. This extra speed has several effects.
+
+On its turn, the subject may take an extra partial action, either before or after its regular action.
+
+The subject gains a +4 haste bonus to AC. The subject loses this bonus whenever it would lose a dodge bonus.
+
+The subject can jump one and a half times as far as normal. This increase counts as an enhancement bonus.
+
+Haste dispels and counters slow.",,
+,,,,,6,7,,,,Heal,"Cures all damage, diseases, and mental conditions.",vs,1 action,Touch,Instantaneous,None,Yes,,,
+,,,,,,,3,,,Heal Mount,As heal on warhorse or other mount.,vs,1 action,Touch,Instantaneous,None,Yes,,,
+,,,,5,5,6,,,,Healing Circle,Cures 1d8 +1/level damage in all directions.,vs,1 action,20 ft.,Instantaneous,Fortitude half,Yes,,,
+,,,,,,2,,,,Heat Metal,Hot metal damages those who touch it.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),7 rounds,Will negates,Yes,,,
+,,,,,3,,,,,Helping Hand,Ghostly hand leads subject to you.,vsd,1 action,Five miles,1 hour/level,None,No,,,
+,,,,,6,,,,,Heroes' Feast,Food for one creature/level cures and blesses.,vsd,10 minutes,Close (25 ft. + 5 ft./2 levels),1 hour + 12 hours,None,Yes,,,
+,,,,,,2,,2,,Hold Animal,Holds one animal helpless; 1 round/level.,vs,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will negates,Yes,,,
+,,,,4,,,,,5,Hold Monster,"As hold person, but any creature.",vsmd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will negates,Yes,,,
+,,,,2,2,,,,3,Hold Person,Holds one person helpless; 1 round/level.,vsfd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will negates,Yes,,,
+,,,,,,,,,1,Hold Portal,Holds door shut.,v,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,None,No,,,
+,,,,,8,,,,,Holy Aura,"+4 AC, +4 resistance, and SR 25 against evil spells.",vsf,1 action,20 ft.,1 round/level,See text,Yes,,,
+,,,,,,,,,,Holy Smite,Damages and blinds evil creatures.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Reflex half,Yes,,,
+,,,,,,,4,,,Holy Sword,"Weapon becomes +5, does double damage against evil.",vs,1 action,Touch,1 round/level,None,No,,,
+,,,,,7,,,,,Holy Word,"Kills, paralyzes, weakens, or dazes nongood subjects.",v,1 action,30 ft.,Instantaneous,None,Yes,,,
+,,,,,,,,,8,Horrid Wilting,Deals 1d8 damage/level within 30 ft.,vsmd,1 action,Long (400 ft. + 40 ft./level),Instantaneous,Fortitude half,Yes,,,
+,,,,2,,,,,2,Hypnotic Pattern,Fascinates 2d4+1 HD/level of creatures.,vsm,1 action,Medium (100 ft. + 10 ft./level),Concentration + 2 rounds,Will negates,Yes,,,
+,,,,1,,,,,1,Hypnotism,Fascinates 2d4 HD of creatures.,vs,1 action,Close (25 ft. + 5 ft./2 levels),2d4 rounds,Will negates,Yes,,,
+,,,,,,5,,,4,Ice Storm,Hail deals 5d6 damage in cylinder 40 ft. across.,vsmd,1 action,Long (400 ft. + 40 ft./level),Instantaneous,None,Yes,,,
+,,,,1,,,,,1,Identify,Determines single feature of magic item.,vsmd,8 hours,Touch,Instantaneous,None,No,"The spell determines the single most basic function of each magic item, including how to activate that function (if appropriate), and how many charges are left (if any). For a weapon, this will be the “plus” to attack and damage.
+
+If a magic item has multiple different functions that are equally basic, identify determines the lowest-level function. If these functions are also of equal level, the DM decides randomly which is identified.
+
+Arcane Material Components: Worth at least 100 gp value.",100,
+,,,,3,,,,,3,Illusory Script,Only intended reader can decipher.,vsm,1 minute or longer,Touch,1 day/level,Will negates,Yes,,,
+,,,,,,,,,4,Illusory Wall,"Wall, floor, or ceiling looks real, but anything can pass through.",vs,1 action,Close (25 ft. + 5 ft./2 levels),Permanent,Will disbelief,No,,,
+,,,,,4,,,,,Imbue with Spell Ability,Transfer spells to subject.,vsd,10 minutes,Touch,Until discharged,Will negates,Yes,,,
+,,,,,9,,,,,Implosion,Kills one creature/round.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Concentration,Fortitude negates,Yes,,,
+,,,,,,,,,9,Imprisonment,Entombs subject beneath the earth.,vs,1 action,Touch,Instantaneous,None,Yes,,,
+,,,,4,,,,,4,Improved Invisibility,"As invisibility, but subject can attack and stay invisible.",vs,1 action,Personal or touch,1 minute/level,Will negates,Y/N,,,
+,Conj,,,,,,,,8,Incendiary Cloud,Cloud deals 4d6 fire damage/round.,vs,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Reflex half,Yes,,,
+,,,,,4,,,,,Inflict Critical Wounds,"Touch attack, 4d8 +1/level damage (max +20).",vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,,1,,,,,Inflict Light Wounds,"Touch, 1d8 +1/level damage (max +5).",vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,,0,,,,,Inflict Minor Wounds,"Touch attack, 1 point of damage.",vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,,2,,,,,Inflict Moderate Wounds,"Touch attack, 2d8 +1/level damage (max +10).",vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,,3,,,,,Inflict Serious Wounds,"Touch attack, 3d8 +1/level damage (max +15).",vs,1 action,Touch,Instantaneous,Will half,Yes,,,
+,,,,,,,,,7,Insanity,Subject suffers continuous confusion.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Will negates,Yes,,,
+,,,,,5,5,,,,Insect Plague,"Insect horde limits vision, inflicts damage, and weak creatures flee.",vsd,1 full round,Long (400 ft. + 40 ft./level),1 minute/level,See text,No,,,
+,,,,2,,,,,2,Invisibility,Subject is invisible for 10 min./level or until it attacks.,vsmd,1 action,Personal or touch,10 minutes/level,None or Will negates,Y/N,"The creature or object touched vanishes from sight, even from darkvision. If the recipient is a creature carrying gear, the gear vanishes, too. If the character casts the spell on someone else, neither the character nor the character's allies can see the subject, unless the character can normally see invisible things or employ magic to do so.
+
+Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible, such as a trailing rope.
+
+The subject is not magically silenced, and certain other conditions can render the recipient detectable (such as stepping in a puddle). The spell ends if the subject attacks any creature. For purposes of this spell, an ""attack"" includes any spell targeting a foe or whose area or effect includes a foe. (Exactly who is a foe depends on the invisible character’s perceptions.) Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. If the subject attacks directly it immediately becomes visible along with all its gear. Note that spells such that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.",,
+,,,,,3,,,,,Invisibility Purge,Dispels invisibility within 5 ft./level.,vs,1 action,Personal,1 minute/level,--,--,,,
+,,,,3,,,,,3,Invisibility Sphere,Makes everyone within 10 ft. invisible.,vsm,1 action,Personal or touch,10 minutes/level,None or Will negates,Y/N,,,
+,,,,,,1,,,,Invisibility to Animals,Animals can't perceive one subject/level.,sd,1 action,Touch,10 minutes/level,None,Yes,,,
+,,,,,1,,,,,Invisibility to Undead,Undead can't perceive one subject/level.,vsd,1 action,Touch,10 minutes/level,Will negates,Yes,,,
+,,,,,,,,,8,Iron Body,Your body becomes living iron.,vsmd,1 action,Personal,1 minute/level,--,--,,,
+,,,,,,6,,,,Ironwood,Magical wood is strong as steel.,vs,1 minute/lb. transformed,Touch,1 day/level,None,No,,,
+,,,,,,,,,1,Jump,Subject gets +30 on Jump checks.,vsm,1 action,Touch,1 minute/level,None,Yes,,,
+,,,,3,,,,,3,Keen Edge,Doubles normal weapon's threat range.,vs,1 action,Close (25 ft. + 5 ft./2 levels),10 minutes/level,Will negates,Yes,,,
+,,,,,,,,,2,Knock,Opens locked or magically sealed door.,v,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None,No,,,
+,,,,,,0,,,,Know Direction,You discern north.,vs,1 action,Personal,Instantaneous,--,--,,,
+,Conj,,,,,,,,5,L.'s Secret Chest,Hides expensive chest on Ethereal Plane; you retrieve it at will.,vsf,10 minutes,See text,60 days or until discharged,None,No,,,
+,Conj,,,4,,,,,4,L.'s Secure Shelter,Creates sturdy cottage.,vsmd,10 minutes,Close (25 ft. + 5 ft./2 levels),2 hours/level,None,No,,,
+,,,,3,,,,,3,L.'s Tiny Hut,Creates shelter for 10 creatures.,vsm,1 action,20 ft.,2 hours/level,None,No,,,
+,,,,,,,,,2,L.'s Trap,Makes item seem trapped.,vsm,1 action,Touch,Permanent,None,No,,,
+,,,,4,,,,,6,Legend Lore,"Learn tales about a person, place, or thing.",vsmf,See text,Personal,See text,--,--,,,
+,,,,3,,,,,4,Lesser Geas,Commands subject of 7 HD or less.,v,1 action,Close (25 ft. + 5 ft./2 levels),1 day/level or until discharged,Will negates,Yes,,,
+,,,,,4,,,,,Lesser Planar Ally,Exchange services with an 8 HD outsider.,vsd,10 minutes,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,Conj,,,,,,,,5,Lesser Planar Binding,Traps outsider until it performs a task.,vs,10 minutes,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,2,2,,,,Lesser Restoration,Dispels magic ability penalty or repairs 1d4 ability damage.,vs,3 rounds,Touch,Instantaneous,Will negates,Yes,,,
+,,,,2,,,,,2,Levitate,Subject moves up and down at your direction.,vsf,1 action,Personal or Close (25 ft. + 5 ft./2 levels),10 minutes/level,None,No,,,
+,,,,0,0,0,,,0,Light,Object shines like a torch.,vmd,1 action,Touch,10 minutes/level,None,No,,,
+,,,,,,,,,3,Lightning Bolt,Electricity deals 1d6 damage/level.,vsm,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Reflex half,Yes,,,
+,,,,,,,,,7,Limited Wish,Alters reality-within spell limits.,vsx,1 action,See text,See text,None,Yes,,,
+,,,,,,6,,,,Liveoak,Oak becomes treant guardian.,vs,10 minutes,Touch,1 day/level,None,No,,,
+,,,,4,,,,,4,Locate Creature,Indicates direction to familiar creature.,vsm,1 action,Long (400 ft. + 40 ft./level),10 minutes/level,None,No,,,
+,,,,2,3,,,,2,Locate Object,Senses direction toward object (specific or type).,vsfd,1 action,Long (400 ft. + 40 ft./level),1 minute/level,None,No,,,
+,Conj,,,,,,,,2,M.'s Acid Arrow,Ranged touch attack; 2d4 damage for 1 round + 1 round/three levels.,vsmf,1 action,Long (400 ft. + 40 ft./level),1 round +1 round/three levels,None,Yes,,,
+,,,,,,,,,9,M.'s Disjunction,"Dispels magic, disenchants magic items.",v,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,No,,,
+,Conj,,,,,,,,5,M.'s Faithful Hound,"Phantom dog can guard, attack.",vsm,1 action,Close (25 ft. + 5 ft./2 levels),"1 hour/caster level or until discharged, then 1 round/caster level",None,No,,,
+,,,,,,,,,6,M.'s Lucubration,Recalls spell of 5th level or less. (Wizard only.),vs,1 action,Personal,Instantaneous,--,--,,,
+,Conj,,,,,,,,7,M.'s Magnificent Mansion,Door leads to extradimensional mansion.,vsf,1 action,Close (25 ft. + 5 ft./2 levels),2 hours/level,None,No,,,
+,,,,,,,,,7,M.'s Sword,Floating magic blade strikes opponents.,vsf,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,None,Yes,,,
+,Conj,,,1,,,,,1,Mage Armor,Gives subject +4 armor bonus.,vsf,1 action,Touch,1 hour/level,Will negates,Yes,"An invisible but tangible field of force surrounds the subject of mage armor, providing a +4 armor bonus to AC. Unlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor.",,
+,,,,0,,,,,0,Mage Hand,5-pound telekinesis.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Concentration,None,No,,,
+,,,,3,3,,,,3,Magic Circle against Chaos,"As protection spells, but 10-ft. radius and 10 min./level.",vsmd,1 action,Touch,10 minutes/level,Will negates,No,,,
+,,,,3,3,,3,,3,Magic Circle against Evil,"As protection spells, but 10-ft. radius and 10 min./level.",vsmd,1 action,Touch,10 minutes/level,Will negates,No,,,
+,,,,3,3,,,,3,Magic Circle against Good,"As protection spells, but 10-ft. radius and 10 min./level.",vsmd,1 action,Touch,10 minutes/level,Will negates,No,,,
+,,,,3,3,,,,3,Magic Circle against Law,"As protection spells, but 10-ft. radius and 10 min./level.",vsmd,1 action,Touch,10 minutes/level,Will negates,No,,,
+,,,,,,1,,1,,Magic Fang,One natural weapon of subject creature gets +1 bonus to attack and damage.,vsd,1 action,Touch,1 minute/level,Will negates,Yes,,,
+,,,,,,,,,5,Magic Jar,Enables possession of another creature.,vsf,1 action,Medium (100 ft. + 10 ft./level),1 hour/level or until the character returns to the character's body,Will negates,Yes,,,
+,,,,,,,,,1,Magic Missile,1d4+1 damage; +1 missile/two levels above 1st (max +5).,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None,Yes,,,
+,,,,2,,,,,2,Magic Mouth,Speaks once when triggered.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),Permanent until discharged,Will negates,Yes,,,
+,,,,,1,,,,,Magic Stone,"Three stones gain +1 attack, deal 1d6+1 damage.",vsd,1 action,Touch,30 minutes or until discharged,Will negates,Yes,,,
+,,,,,3,,,,,Magic Vestment,Armor or shield gains +1 enhancement/three levels.,vsd,1 action,Touch,1 hour/level,Will negates,Yes,,,
+,,,,1,1,,1,,1,Magic Weapon,Weapon gains +1 bonus.,vsfd,1 action,Touch,1 minute/level,Will negates,Yes,,,
+,Conj,,,,,,,,5,Major Creation,"As minor creation, plus stone and metal.",vsm,10 minutes,Close (25 ft. + 5 ft./2 levels),See text,None,No,,,
+,,,,3,,,,,3,Major Image,"As silent image, plus sound, smell and thermal effects.",vsf,1 action,Long (400 ft. + 40 ft./level),Concentration+3 rounds,Will disbelief,No,,,
+,,,,,2,,,,,Make Whole,Repairs an object.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,5,,,,,Mark of Justice,Designates action that will trigger curse on subject.,vsd,10 minutes,Touch,Permanent,None,Yes,,,
+,,,,,,,,,8,Mass Charm,"As charm monster, but all within 30 ft.",v,1 action,Close (25 ft. + 5 ft./2 levels),1 day/level,Will negates,Yes,,,
+,,,,6,,,,,6,Mass Haste,"As haste, affects one/level subjects.",vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,Fortitude negates,Yes,,,
+,,,,,8,9,,,,Mass Heal,"As heal, but with several subjects.",vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,Yes,,,
+,,,,,,,,,7,Mass Invisibility,"As invisibility, but affects all in range.",vsm,1 action,Long (400 ft. + 40 ft./level),10 minutes/level,None or Will negates,Y/N,,,
+,,,,6,,,,,6,Mass Suggestion,"As suggestion, plus one/level subjects.",vm,1 action,Medium (100 ft. + 10 ft./level),1 hour/level or until completed,Will negates,Yes,,,
+,Conj,,,,,,,,8,Maze,Traps subject in extradimensional maze.,vs,1 action,Close (25 ft. + 5 ft./2 levels),See text,None,No,,,
+,,,,,3,3,,,,Meld into Stone,You and your gear merge with stone.,vsd,1 action,Personal,10 minutes/level,--,--,,,
+,,,,0,0,0,,,0,Mending,Makes minor repairs on an object.,vs,1 action,10 ft.,Instantaneous,Will negates,Yes,,,
+,,,,1,,,,,1,Message,Whispered conversation at distance.,vsf,1 action,Medium (100 ft. + 10 ft./level),10 minutes/level,None,No,,,
+,,,,,,,,,9,Meteor Swarm,"Deals 24d6 fire damage, plus bursts.",vs,1 action,Long (400 ft. + 40 ft./level),Instantaneous,None or Reflex half,Yes,,,
+,,,,,,,,,8,Mind Blank,Subject is immune to mental/emotional magic and scrying.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1 day,Will negates,Yes,,,
+,,,,5,,,,,5,Mind Fog,"Subjects in fog get -10 Wis, Will checks.",vs,1 action,Medium (100 ft. + 10 ft./level),30 minutes/+2d6 rounds,Will negates,Yes,,,
+,Conj,,,,,,,,4,Minor Creation,Creates one cloth or wood object.,vsm,1 minute,0 ft.,1 hour/level,None,No,,,
+,,,,,,,,,4,Minor Globe of Invulnerability,Stops 1st- through 3rd-level spell effects.,vsm,1 action,10 ft.,1 round/level,None,No,,,
+,,,,2,,,,,2,Minor Image,"As silent image, plus some sound.",vsf,1 action,Long (400 ft. + 40 ft./level),Concentration+2 rounds,Will disbelief,No,,,
+,,,,,9,,,,,Miracle,Requests a deity's intercession.,vsx,1 action,See text,See text,See text,Yes,,,
+,,,,5,,,,,5,Mirage Arcana,"As hallucinatory terrain, plus structures.",vs,1 action,Long (400 ft. + 40 ft./level),Concentration+1 hour/level,Will disbelief,No,,,
+,,,,2,,,,,2,Mirror Image,"Creates decoy duplicates of you (1d4 +1/three levels, max 8).",vs,1 action,Personal,1 minute/level,--,--,"Several illusory duplicates of the character pop into being, making it difficult for enemies to know which target to attack. The figments stay near the character and disappear when struck.
+
+Mirror image creates 1d4 images plus one image per three caster levels (maximum eight images). These figments separate from the character and remain in a cluster, each within 5 feet of at least one other figment or the character. The character can move into and through a mirror image. When the character and the mirror image separate, observers can't use vision or hearing to tell which one is the character and which the image. The figments may also move through each other. The figments mimic the character's actions.
+
+Enemies attempting to attack the character or cast spells at the character must select from among indistinguishable targets. Generally, roll randomly to see whether the selected target is real or a figment. Any successful attack roll against a figment destroys it. A figment's AC is 10 + size modifier + Dexterity modifier. Figments seem to react normally to area spells.
+
+While moving, the character can merge with and split off from figments so that enemies who have learned which image is real are again confounded.
+
+An attacker must be able to see the images to be fooled. If the character is invisible or an attacker shuts her eyes, the spell has no effect, though being unable to see carries the same penalties as being blinded: In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus to attackers' attack rolls (they are effectively invisible), moves at half speed, and suffers a –4 penalty on most Strength- and Dexterity-based skills.",,
+,,,,2,,,,,2,Misdirection,Misleads divinations for one creature or object.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,Will negates,No,,,
+,,,,5,,,,,6,Mislead,Turns you invisible and creates illusory double.,s,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,None/Will disbelief,No,,,
+,,,,4,,,,,,Modify Memory,Changes 5 minutes of subject's memories.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Permanent,Will negates,Yes,,,
+,Conj,,,,,,,,1,Mount,Summons riding horse for 2 hr./level.,vsm,1 full round,Close (25 ft. + 5 ft./2 levels),2 hours/level,None,No,,,
+,,,,,,,,,6,Move Earth,Digs trenches and build hills.,vsm,See text,Long (400 ft. + 40 ft./level),Instantaneous,None,No,,,
+,,,,,,,,,1,N.'s Magic Aura,Grants object false magic aura.,vsf,1 action,Touch,1 day/level,None,No,,,
+,,,,,,,,,1,N.'s Undetectable Aura,Masks magic item's aura.,vsf,1 action,Touch,1 day/level,None,No,,,
+,,,,,3,,,,,Negative Energy Protection,Subject resists level and ability drains.,vs,1 action,Touch,1 round/level,Will negates,Yes,,,
+,,,,4,4,3,4,3,,Neutralize Poison,Detoxifies venom in or on subject.,vsmd,1 action,Touch,Instantaneous,Will negates,Yes,,,
+,,,,5,,,,,5,Nightmare,"Sends vision dealing 1d10 damage, fatigue.",vs,10 minutes,Unlimited,Instantaneous,Will negates,Yes,,,
+,,,,,,,,4,3,Nondetection,"Hides subject from divination, scrying.",vsm,1 action,Touch,1 hour/level,Will negates,Yes,,,
+,,,,,,,,,6,O.'s Freezing Sphere,Freezes water or deals cold damage.,vsf,1 action,See text,See text,See text,Yes,,,
+,,,,,,,,,8,O.'s Irresistible Dance,Forces subject to dance.,v,1 action,Touch,1d4+1 rounds,None,Yes,,,
+,,,,,,,,,4,O.'s Resilient Sphere,Force globe protects but traps one subject.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 minute /level,Reflex negates,Yes,,,
+,,,,,,,,,8,O.'s Telekinetic Sphere,"As Otiluke's resilient sphere, but you move sphere telekinetically.",vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Reflex negates,Yes,,,
+,,,,2,3,,,,2,Obscure Object,Masks object against divination.,vsmd,1 action,Touch,8 hours,Will negates,Yes,,,
+,Conj,,,,1,1,,,1,Obscuring Mist,Fog surrounds you.,vs,1 action,30 ft.,1 minute/level,None,No,,,
+,,,,0,,,,,0,Open/Close,Opens or closes small or light things.,vsf,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,,,,,,Order's Wrath,Order's Wrath. Damages and dazes chaotic creatures.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Reflex partial,Yes,,,
+,,,,,,1,,1,,Pass without Trace,One subject/level leaves no tracks.,vsd,1 action,Touch,10 minutes/level,Will negates,Yes,,,
+,,,,,,,,,5,Passwall,Breaches walls 1 ft. thick/level.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,None,No,,,
+,,,,,,,,,5,Permanency,Makes certain spells permanent; costs XP.,vsx,2 rounds,See text,Permanent,None,No,,,
+,,,,6,,,,,6,Permanent Image,"Includes sight, sound, and smell.",vsf,1 action,Long (400 ft. + 40 ft./level),Permanent,Will disbelief,No,,,
+,,,,5,,,,,5,Persistent Image,"As major image, but no concentration required.",vsf,1 action,Long (400 ft. + 40 ft./level),1 minute/level,Will disbelief,No,,,
+,,,,,,,,,4,Phantasmal Killer,Fearsome illusion kills subject or deals 3d6 damage.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Will disbelief,Yes,,,
+,Conj,,,3,,,,,3,Phantom Steed,Magical horse appears for 1 hour/level.,vs,10 minutes,0 ft.,1 hour/level,None,No,,,
+,Conj,,,,,,,,7,Phase Door,Invisible passage through wood or stone.,v,1 action,Touch,One usage/two levels,None,No,,,
+,,,,,6,,,,,Planar Ally,"As lesser planar ally, but up to 16 HD.",vsd,10 minutes,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,Conj,,,,,,,,6,Planar Binding,"As lesser planar binding, but up to 16 HD.",vsm,10 minutes,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,6,5,,,,7,Plane Shift,Up to eight subjects travel to another plane.,vsf,1 action,Touch,Instantaneous,Will negates,Yes,,,
+,,,,,,3,,3,,Plant Growth,"Grows vegetation, improves crops.",vsd,1 action,See text,Instantaneous,None,No,,,
+,,,,,4,3,,,,Poison,"Touch deals 1d10 Con damage, repeats in 1 min.",vsd,1 action,Touch,Instantaneous,Fortitude negates,Yes,,,
+,,,,,,,,,8,Polymorph Any Object,Changes any subject into anything else.,vsmd,1 action,Close (25 ft. + 5 ft./2 levels),See text,Will negates,Yes,,,
+,,,,,,,,,4,Polymorph Other,Gives one subject a new form.,vsm,1 action,Medium (100 ft. + 10 ft./level),Permanent,Fortitude negates,Yes,,,
+,,,,,,,,4,4,Polymorph Self,You assume a new form.,v,1 action,Personal,1 hour/level,--,--,,,
+,Conj,,,,,,,,8,"Power Word, Blind",Blinds 200 hp worth of creatures.,v,1 action,Close (25 ft. + 5 ft./2 levels),See text,None,Yes,,,
+,Conj,,,,,,,,9,"Power Word, Kill",Kills one tough subject or many weak ones.,v,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,Yes,,,
+,Conj,,,,,,,,7,"Power Word, Stun",Stuns creature with up to 150 hp.,v,1 action,Close (25 ft. + 5 ft./2 levels),See text,None,Yes,,,
+,,,,,3,,3,,,Prayer,"Allies gain +1 on most rolls, and enemies suffer -1.",vsd,1 action,30 ft.,1 round/level,None,Yes,,,
+,,,,0,,,,,0,Prestidigitation,Performs minor tricks.,vs,1 action,10 ft.,1 hour,See text,No,,,
+,,,,,,,,,9,Prismatic Sphere,"As prismatic wall, but surrounds on all sides.",v,1 action,10 ft.,10 minutes/level,See text,Text,,,
+,,,,,,,,,7,Prismatic Spray,Rays hit subjects with variety of effects.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,See text,Yes,,,
+,,,,,,,,,8,Prismatic Wall,Wall's colors have array of effects.,vs,1 action,Close (25 ft. + 5 ft./2 levels),10 minutes/level,See text,Text,,,
+,,,,,,2,,,,Produce Flame,"1d4 +1/two levels damage, touch or thrown.",vs,1 action,Touch,1 round/level,None,Yes,,,
+,,,,6,,,,,6,Programmed Image,"As major image, plus triggered by event.",vsf,1 action,Long (400 ft. + 40 ft./level),"Permanent until triggered, then 1 round/level",Will disbelief,No,,,
+,,,,6,,,,,6,Project Image,Illusory double can talk and cast spells.,vsm,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will disbelief,No,,,
+,,,,,,,,,2,Protection from Arrows,Subject immune to most ranged attacks.,vsf,1 action,Touch,10 minutes/level or until discharged,Will negates,Yes,,,
+,,,,1,1,,,,1,Protection from Chaos,"+2 AC and saves, counter mind control, hedge out elementals and outsiders.",vsmd,1 action,Touch,1 minute/level,Will negates,No,,,
+,,,,,3,3,,2,3,Protection from Elements,Absorb 12 damage/level from one kind of energy.,vsd,1 action,Touch,10 minutes/level or until discharged,None,Yes,,,
+,,,,1,1,,1,,1,Protection from Evil,"+2 AC and saves, counter mind control, hedge out elementals and outsiders.",vsmd,1 action,Touch,1 minute/level,Will negates,No,,,
+,,,,1,1,,,,1,Protection from Good,"+2 AC and saves, counter mind control, hedge out elementals and outsiders.",vsmd,1 action,Touch,1 minute/level,Will negates,No,,,
+,,,,1,1,,,,1,Protection from Law,"+2 AC and saves, counter mind control, hedge out elementals and outsiders.",vsmd,1 action,Touch,1 minute/level,Will negates,No,,,
+,,,,,,,,,8,Protection from Spells,Confers +8 resistance bonus.,vsmf,1 action,Touch,10 minutes/level,Will negates,Yes,,,
+,,,,,,,,,5,Prying Eyes,1d4 floating eyes +1/level scout for you.,vsm,1 minute,One mile,1 hour/level,None,No,,,
+,,,,,0,0,,,,Purify Food and Drink,Purifies 1 cu. ft./level of food or water.,vs,1 action,10 ft.,Instantaneous,Will negates,Yes,,,
+,,,,2,,,,,2,Pyrotechnics,Turns fire into blinding light or choking smoke.,vsm,1 action,Long (400 ft. + 40 ft./level),1d4+1 rounds or 1d4+1 rounds after creatures leave the smoke cloud,Will negates or Fortitude negates,Y/N,,,
+,,,,,,4,,,,Quench,Extinguishes nonmagical fires or one magic item.,vsd,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None or Will negates,Y/N,,,
+,,,,,,,,,4,R.'s Mnemonic Enhancer,Prepares extra spells or retains one just cast. (Wizard only.),vsmf,10 minutes,Personal,Instantaneous ,--,--,,,
+,,,,,,,,,5,R.'s Telepathic Bond,Link lets allies communicate.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),10 minutes/level,None,No,,,
+,,,,4,,,,,4,Rainbow Pattern,Lights prevent 24 HD of creatures from attacking or moving away.,,1 action,Medium (100 ft. + 10 ft./level),Concentration+1 round/level,Will negates,Yes,,,
+,,,,,5,,,,,Raise Dead,Restores life to subject who died up to 1 day/level ago.,vsmd,1 minute,Touch,Instantaneous,None,Yes,,,
+,,,,,1,,,,,Random Action,One creature acts randomly for one round.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),1 round,Will negates,Yes,,,
+,,,,,,,,,1,Ray of Enfeeblement,Ray reduces Str by 1d6 points +1 point/two levels.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Fortitude negates,Yes,,,
+,Conj,,,,,,,,0,Ray of Frost,Ray deals 1d3 cold damage.,vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,Yes,,,
+,,,,0,0,0,1,1,0,Read Magic,Read scrolls and spellbooks.,vsf,1 action,Personal,10 minutes/level,--,--,,,
+,,,,,,,,,1,Reduce,Object or creature shrinks 10%/level (max 50%).,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Fortitude negates,Yes,,,
+,,,,,7,,,,9,Refuge,Alters item to transport its possessor to you.,vsm,1 action,Touch,Permanent until discharged,None,No,,,
+,,,,,7,,,,,Regenerate,Subject's severed limbs grow back.,vsd,3 full rounds,Touch,Instantaneous,Fortitude negates,Yes,,,
+,,,,,,4,,,,Reincarnate,Brings dead subject back in a random body.,vsd,10 minutes,Touch,Instantaneous,None,Yes,,,
+,,,,,3,,3,,,Remove Blindness/Deafness,Cures normal or magical conditions.,vs,1 action,Touch,Instantaneous,Fortitude negates,Yes,,,
+,,,,3,3,,,,4,Remove Curse,Frees object or person from curse.,vs,1 action,Touch,Instantaneous,Will negates,Yes,,,
+,,,,3,3,3,,3,,Remove Disease,Cures all diseases affecting subject.,vs,1 action,Touch,Instantaneous,Fortitude negates,Yes,,,
+,,,,,1,,,,,Remove Fear,+4 on saves against fear for one subject +1/four levels.,vs,1 action,Close (25 ft. + 5 ft./2 levels),10 minutes and see text,Will negates,Yes,,,
+,,,,,2,,2,,,Remove Paralysis,"Frees one or more creatures from paralysis, hold, or slow.",vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,,8,,,,Repel Metal or Stone,Pushes away metal and stone.,vs,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,No,,,
+,,,,,4,4,,,,Repel Vermin,Insects stay 10 ft. away.,vsd,1 action,10 ft.,10 minutes/level,None or Will negates,Yes,,,
+,,,,,,6,,,,Repel Wood,Pushes away wooden objects.,vs,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,None,No,,,
+,,,,6,7,,,,6,Repulsion,Creatures can't approach you.,vsfd,1 action,Up to 10 ft./level,1 round/level,Will negates,Yes,,,
+,,,,,2,2,2,1,2,Resist Elements,Ignores 12 damage/round from one energy type.,vsd,1 action,Touch,1 minute/level,None,Yes,,,
+,,,,0,0,0,1,,0,Resistance,Subject gains +1 on saving throws.,vsmd,1 action,Touch,1 minute,Will negates,Yes,,,
+,,,,,4,,,,,Restoration,Restores level and ability score drains.,vsm,3 rounds,Touch,Instantaneous,Will negates,Yes,,,
+,,,,,7,,,,,Resurrection,Fully restore dead subject.,vsmd,10 minutes,Touch,Instantaneous,None,Yes,,,
+,,,,,,8,,,7,Reverse Gravity,Objects and creatures fall upward.,vsmd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,No,,,
+,,,,,5,,,,,Righteous Might,"Your size increases, and you gain +4 Str.",vsd,1 action,Personal,1 round/level,--,--,,,
+,,,,,,,,,2,Rope Trick,Up to eight creatures hide in extradimensional space.,vsm,1 action,Touch,1 hour/level,None,No,,,
+,,,,,,4,,,,Rusting Grasp,Your touch corrodes iron and alloys.,vsd,1 action,Touch,See text,None,No,,,
+,,,,,1,,,,,Sanctuary,"Opponents can't attack you, and you can't attack.",vsd,1 action,Touch,1 round/level,Will negates,No,,,
+,,,,2,,,,,2,Scare,Panics creatures up to 5 HD (15-ft. radius).,vsm,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Will negates,Yes,,,
+,,,,,,,,,8,Screen,"Illusion hides area from vision, scrying.",vs,10 minutes,Close (25 ft. + 5 ft./2 levels),1 day,None or Will disbelief,No,,,
+,,,,3,5,4,,,4,Scrying,Spies on subject from a distance.,vsmfd,1 hour,See text,1 minute/level,None,No,,,
+,,,,3,,,,,,Sculpt Sound,Creates new sounds or changes existing ones.,vs,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,Will negates,Yes,,,
+,,,,,3,,,,,Searing Light,"Ray deals 1d8/two levels, more against undead.",vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,None,Yes,,,
+,,,,,,,,,3,Secret Page,Changes one page to hide its real content.,vsm,10 minutes,Touch,Permanent,None,No,,,
+,,,,2,,,,,2,See Invisibility,Reveals invisible creatures or objects.,vsm,1 action,Medium (100 ft. + 10 ft./level),10 minutes/level,None,No,,,
+,,,,,,,,,5,Seeming,Changes appearance of one person/two levels.,vs,1 action,Close (25 ft. + 5 ft./2 levels),12 hours,Will negates or Will disbelief,Y/N,,,
+,,,,,4,,,,5,Sending,"Delivers short message anywhere, instantly.",vsmd,10 minutes,See text,1 round,None,No,,,
+,Conj,,,3,,,,,3,Sepia Snake Sigil,Creates text symbol that immobilizes reader.,vsm,10 minutes,Touch,Permanent or until discharged; until released or 1d4 days +1 day/level,Reflex negates,No,,,
+,,,,,,,,,7,Sequester,Subject is invisible to sight and scrying.,vsm,1 action,Touch,1 day/level,Will negates,Yes,,,
+,,,,,,,,,6,Shades,"As shadow conjuration, but up to 5th level and 60% real.",vs,1 action,See text,See text,Will disbelief,No,,,
+,,,,,,,,,4,Shadow Conjuration,Mimics conjuring below 4th level.,vs,1 action,See text,See text,Will disbelief,No,,,
+,,,,,,,,,5,Shadow Evocation,Mimics evocation less than 5th level.,vs,1 action,See text,See text,Will disbelief,Yes,,,
+,,,,,,,,,7,Shadow Walk,Step into shadow to travel rapidly.,vs,1 action,Touch,1 hour/level,Will negates,Yes,,,
+,,,,,,9,,,,Shambler,Summons 1d4+2 shambling mounds to fight for you.,vs,1 action,Medium (100 ft. + 10 ft./level),Seven days or seven months,None,No,,,
+,,,,,,9,,,9,Shapechange,"Transforms you into any creature, and change forms once per round.",vsf,1 action,Personal,10 minutes/level,--,--,,,
+,,,,2,2,,,,2,Shatter,Sonic vibration damages objects or crystalline creatures.,vsmd,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,,,,,1,Shield,Invisible disc gives cover and blocks magic missiles.,vs,1 action,Personal,1 minute/level,--,--,,,
+,,,,,1,,,,,Shield of Faith,Aura grants +2 or higher deflection bonus.,vsm,1 action,Touch,1 minute/level,Will negates,Yes,,,
+,,,,,8,,,,,Shield of Law,"+4 AC, +4 resistance, and SR 25 against chaotic spells.",vsf,1 action,20 ft.,1 round/level,See text,Yes,,,
+,,,,,2,,2,,,Shield Other,You take half of subject's damage.,vsf,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,Will negates,Yes,,,
+,,,,,,1,,,,Shillelagh,Cudgel or quarterstaff becomes +1 weapon (1d10 damage) for 1 minute/level.,vsd,1 action,Touch,1 minute/level,Will negates,Yes,,,
+,,,,,,,,,1,Shocking Grasp,Touch delivers 1d8 +1/level electricity.,vs,1 action,Touch,Until discharged,None,Yes,,,
+,,,,4,,,,,4,Shout,Deafens all within cone and deals 2d6 damage.,v,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Fortitude partial,Yes,,,
+,,,,,,,,,3,Shrink Item,Object shrinks to one-twelfth size.,vs,1 action,Touch,1 day/level,Will negates,Yes,,,
+,,,,2,2,,,,,Silence,Negates sound in 15-ft. radius.,vs,1 action,Long (400 ft. + 40 ft./level),1 minute/level,Will negates or none,Y/N,,,
+,,,,1,,,,,1,Silent Image,Creates minor illusion of your design.,vsf,1 action,Long (400 ft. + 40 ft./level),Concentration,Will disbelief,No,"This spell creates the visual illusion of an object, creature, or force, as visualized by the character. The illusion does not create sound, smell, texture, or temperature. The character can move the image within the limits of the size of the effect.",,
+,,,,,,,,,7,Simulacrum,Creates partially real double of a creature.,vsmx,12 hours,Touch,Instantaneous,None,No,,,
+,,,,,5,,,,,Slay Living,Touch attack kills subject.,vs,1 action,Touch,Instantaneous,Fortitude partial,Yes,,,
+,,,,1,,,,2,1,Sleep,Put 2d4 HD of creatures into comatose slumber.,vsmd,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,Will negates,Yes,"A sleep spell causes a comatose slumber to come upon one or more creatures. Roll 2d4 to determine how many total HD of creatures can be affected. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell’s point of origin are affected first. No creature with 5 or more HD is affected, and HD that are not sufficient to affect a creature are wasted.
+
+Creatures with fewer HD are affected first.
+
+Sleeping creatures are helpless. Slapping or wounding awakens affected creatures, but normal noise does not. Awakening a creature is a standard action.
+
+Sleep does not target unconscious creatures, constructs, or undead creatures.",,
+,Conj,,,,,4,,,3,Sleet Storm,Hampers vision and movement.,vsmd,1 action,Long (400 ft. + 40 ft./level),1 round/level,Reflex partial,No,,,
+,,,,3,,,,,3,Slow,"One subject/level takes only partial actions, -2 AC, -2 melee rolls.",vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 round/level,Will negates,Yes,,,
+,,,,,,3,,2,,Snare,Creates a magical booby trap.,vsd,3 rounds,Touch,Until triggered or broken,None,No,,,
+,,,,,,2,,,,Soften Earth and Stone,Turns stone to clay or dirt to sand or mud.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,None,No,,,
+,Conj,,,,,,,,4,Solid Fog,Blocks vision and slows movement.,vsm,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,None,No,,,
+,,,,,9,,,,9,Soul Bind,Traps newly dead soul to prevent resurrection.,vsf,1 action,Close (25 ft. + 5 ft./2 levels),Permanent,Will negates,No,,,
+,,,,2,2,,,,,Sound Burst,Deals 1d8 sonic damage to subjects; may stun them.,vsfd,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will partial,Yes,,,
+,,,,,2,2,,1,,Speak with Animals,You can communicate with natural animals.,vs,1 action,Personal,1 minute/level,--,--,,,
+,,,,,3,,,,,Speak with Dead,Corpse answers one question/two levels.,vsd,10 minutes,10 ft.,1 minute/level,Will negates,No,,,
+,,,,,3,3,,2,,Speak with Plants,You can talk to normal plants and plant creatures.,vs,1 action,Personal,1 minute/level,--,--,,,
+,,,,,,,,,2,Spectral Hand,Creates disembodied glowing hand to deliver touch attacks.,vs,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,None,No,,,
+,,,,,4,,,,,Spell Immunity,Subject is immune to one spell/four levels.,vsd,1 action,Touch,10 minutes/level,Will negates,Yes,,,
+,,,,,5,,,,,Spell Resistance,Subject gains +12 +1/level SR.,vsd,1 action,Touch,1 minute/level,Will negates,Yes,,,
+,,,,,,,,,7,Spell Turning,Reflect 1d4+6 spell levels back at caster.,vsmd,1 action,Personal,Until expended or 10 minutes/ level,--,--,,,
+,,,,,,6,,,,Spellstaff,Stores one spell in wooden quarterstaff.,vsf,10 minutes,Touch,Permanent until discharged,Will negates,Yes,,,
+,,,,,,,,,1,Spider Climb,Grants ability to walk on walls and ceilings.,vsm,1 action,Touch,10 minutes/level,Will negates,Yes,,,
+,,,,,,3,,,,Spike Growth,"Creatures in area take 1d4 damage, may be slowed.",vsd,1 action,Medium (100 ft. + 10 ft./level),1 hour/level,Reflex partial,Yes,,,
+,,,,,,4,,,,Spike Stones,"Creatures in area take 1d8 damage, may be slowed.",vsd,1 action,Medium (100 ft. + 10 ft./level),1 hour/level,Reflex partial,Yes,,,
+,,,,,2,,,,,Spiritual Weapon,Magical weapon attacks on its own.,vsd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,,,
+,,,,,,,,,7,Statue,Subject can become a statue at will.,vsm,1 action,Touch,1 hour/level,Will negates,Yes,,,
+,,,,,4,,,,,Status,"Monitors condition, position of allies.",vs,1 action,Touch,1 hour/level,Will negates,Yes,,,
+,Conj,,,,,,,,3,Stinking Cloud,"Nauseating vapors, 1 round/level.",vsm,1 action,Medium (100 ft. + 10 ft./level),1 round/level,Fortitude negates,Yes,,,
+,,,,,3,3,,,5,Stone Shape,Sculpts stone into any form.,vsmd,1 action,Touch,Instantaneous,None,No,,,
+,,,,,,6,,,,Stone Tell,Talk to natural or worked stone.,vsd,10 minutes,Personal,1 minute/level,--,--,,,
+,,,,,,,,,6,Stone to Flesh,Restores petrified creature.,vsm,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Fortitude negates,Yes,,,
+,,,,,,,,,4,Stoneskin,"Stops blows, cuts, stabs, and slashes.",vsm,1 action,Touch,10 minutes/level or until discharged,Will negates,Yes,,,
+,,,,,9,,,,,Storm of Vengeance,"Storm rains acid, lightning, and hail.",vs,1 full round,Long (400 ft. + 40 ft./level),Concentration,See text,Yes,,,
+,,,,2,,,,,3,Suggestion,Compels subject to follow stated course of action.,vm,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level or until completed,Will negates,Yes,"The character influences the actions of the enchanted creature by suggesting a course of activity (limited to a sentence or two). The suggestion must be worded in such a manner as to make the activity sound reasonable.
+
+The suggested course of activity can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what he was asked to do. The character can instead specify conditions that will trigger a special activity during the duration. If the condition is not met before the spell expires, the activity is not performed.
+
+A very reasonable suggestion causes the save to be made with a penalty (such as –1, –2, etc.) at the discretion of the DM.",,
+,Conj,,,1,1,,,,1,Summon Monster I,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,"This spell summons an outsider (extraplanar creature). It appears where the character designates and acts immediately, on the character’s turn. It attacks the character’s opponents to the best of its ability. If the character can communicate with the outsider, the character can direct it not to attack, to attack particular enemies, or to perform other actions. Summoned creatures act normally on the last round of the spell and disappear at the end of their turn.
+
+The spell conjures one of the creatures from the 1st-level list on the Summon Monster table below. The character chooses which creature to summon, and can change that choice each time the spell is cast.
+1st-level
+Celestial dog (animal)  LG
+Celestial badger (animal)  CG
+Fiendish dire rat  LE
+Fiendish hawk (animal)  CE
+
+When the character uses a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.",,
+,Conj,,,2,2,,,,2,Summon Monster II,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,"This spell summons an outsider (extraplanar creature). It appears where the character designates and acts immediately, on the character’s turn. It attacks the character’s opponents to the best of its ability. If the character can communicate with the outsider, the character can direct it not to attack, to attack particular enemies, or to perform other actions. Summoned creatures act normally on the last round of the spell and disappear at the end of their turn.
+
+The spell conjures one of the creatures from the 2nd-level list on the Summon Monster table below or 1d3 outsiders of the same type from the 1st-level list. The character chooses which creature to summon, and can change that choice each time the spell is cast.
+2nd-level
+Celestial eagle (animal)  CG
+Formian worker  LN
+Lemure (devil)  LE
+Fiendish squid (animal)  LE
+Fiendish wolf (animal)  LE
+Fiendish shark,
+Medium-size (animal)  NE
+Fiendish viper,
+Tiny (animal)  CE
+Fiendish hyena (animal)
+[treat as wolf (animal)]  CE
+Fiendish octopus (animal)  CE
+
+When the character uses a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.",,
+,Conj,,,3,3,,,,3,Summon Monster III,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,"This spell summons an outsider (extraplanar creature). It appears where the character designates and acts immediately, on the character’s turn. It attacks the character’s opponents to the best of its ability. If the character can communicate with the outsider, the character can direct it not to attack, to attack particular enemies, or to perform other actions. Summoned creatures act normally on the last round of the spell and disappear at the end of their turn.
+
+The spell conjures one of the creatures from the 3rd-level list on the Summon Monster table below, 1d3 creatures of the same type from the 2nd-level list, or 1d4+1 creatures of the same type from the 1st-level list. The character chooses which creature to summon, and can change that choice each time the spell is cast.
+3rd-level
+Celestial bear, black (animal)  LG
+Celestial bison (animal)  NG
+Triton  NG
+Celestial dire badger  CG
+Azer  LN
+Elemental, Small  N
+Thoqqua  N
+Fiendish dire weasel  LE
+Fiendish gorilla (animal)  LE
+Fiendish snake, constrictor
+(animal)  LE
+Fiendish boar  NE
+Fiendish dire bat  NE
+Fiendish lizard, giant (animal)  NE
+Salamander, Small  NE
+Fiendish shark, Large (animal)  NE
+Fiendish viper,
+Small snake (animal)  CE
+Fiendish crocodile (animal)  CE
+Dretch  CE
+Fiendish leopard (animal)  CE
+Fiendish wolverine (animal)  CE
+
+When the character uses a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.",,
+,Conj,,,4,4,,,,4,Summon Monster IV,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,"This spell summons an outsider (extraplanar creature). It appears where the character designates and acts immediately, on the character’s turn. It attacks the character’s opponents to the best of its ability. If the character can communicate with the outsider, the character can direct it not to attack, to attack particular enemies, or to perform other actions. Summoned creatures act normally on the last round of the spell and disappear at the end of their turn.
+
+The spell conjures one of the creatures from the 4th-level list on the Summon Monster table below, 1d3 creatures of the same type from the 3rd-level list, or 1d4+1 creatures of the same type from a lower-level list. The character chooses which creature to summon, and can change that choice each time the spell is cast.
+4th-level
+Lantern archon (celestial)  LG
+Giant owl  NG
+Giant eagle  CG
+Celestial lion (animal)  CG
+Tojanida, Small  N
+Xorn, Small  N
+Arrowhawk, Small  N
+Magmin  CN
+Imp (devil)  LE
+Fiendish dire ape  LE
+Fiendish dire wolf  LE
+Hell hound  LE
+Varguouille  NE
+Fiendish viper, Medium-size
+snake (animal)  CE
+Howler  CE
+
+When the character uses a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.",,
+,Conj,,,,9,,,,9,Summon Monster IX,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,5,5,,,,5,Summon Monster V,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,6,6,,,,6,Summon Monster VI,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,7,,,,7,Summon Monster VII,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,8,,,,8,Summon Monster VIII,Calls outsider to fight for you.,vsfd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,1,,1,,Summon Nature's Ally I,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,2,,2,,Summon Nature's Ally II,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,3,,3,,Summon Nature's Ally III,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,4,,4,,Summon Nature's Ally IV,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,9,,,,Summon Nature's Ally IX,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,5,,,,Summon Nature's Ally V,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,"This spell summons an outsider (extraplanar creature). It appears where the character designates and acts immediately, on the character’s turn. It attacks the character’s opponents to the best of its ability. If the character can communicate with the outsider, the character can direct it not to attack, to attack particular enemies, or to perform other actions. Summoned creatures act normally on the last round of the spell and disappear at the end of their turn.
+
+The spell conjures one of the creatures from the 5th-level list on the Summon Monster table below, 1d3 creatures of the same type from the 4th-level list, or 1d4+1 creatures of the same type from a lower-level list. The character chooses which creature to summon, and can change that choice each time the spell is cast.
+5th-level
+Celestial bear, brown (animal)  LG
+Hound archon (celestial)  LG
+Celestial orca, whale  NG
+(animal) Celestial pegasus  CG
+Celestial dire lion  CG
+Formian warrior  LN
+Elemental, Medium-size  N
+Mephit, any  N
+Arrowhawk, Medium-size  N
+Tojanida, Medium-size  N
+Achaierai  LE
+Fiendish griffon  LE
+Fiendish snake, giant constrictor
+(animal)  LE
+Yeth hound  NE
+Fiendish dire boar  NE
+Fiendish rhinoceros (animal)  NE
+Fiendish shark, Large (animal)  NE
+Salamander, Medium-size  NE
+Shadow mastiff  NE
+Fiendish viper, Large (animal)  CE
+Quasit  CE
+Fiendish dire wolverine  CE
+Fiendish giant crocodile (animal)  CE
+Fiendish tiger (animal)  CE
+Fiendish girallon  CE
+
+When the character uses a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.",,
+,Conj,,,,,6,,,,Summon Nature's Ally VI,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,7,,,,Summon Nature's Ally VII,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,,,8,,,,Summon Nature's Ally VIII,Calls creature to fight.,vsd,1 full round,Close (25 ft. + 5 ft./2 levels),1 round/level,None,No,,,
+,Conj,,,2,,2,,,2,Summon Swarm,Summons swarm of small crawling or flying creatures.,vsmd,1 full round,Close (25 ft. + 5 ft./2 levels),Concentration + 2 rounds,None,No,"A swarm of little creatures carpets the effect’s area, viciously attacking all other creatures there. (Roll on the table below to see what sort of creature is summoned.) A creature in the swarm who takes no actions other than fighting off the swarming creatures takes 1 point of damage on its turn. A creature in the swarm who takes any other action, including leaving the swarm, takes 1d4 points of damage +1 point per three caster levels. Spellcasting or concentrating on spells within the swarm is impossible.
+1d20  Swarm Type*
+1-8  Rats (animals)
+9-14  Bats (animals)
+15-16  Spiders (vermin, poisonous)
+17-18  Centipedes (vermin, poisonous)
+19-20  Flying beetles (vermin)
+* The creature types (in parentheses) indicate what sorts of spells and effects might aid a subject against the swarm.
+
+A swarm of poisonous creatures deals no damage to creatures who are immune to poison, though it still prevents spellcasting and concentration. The creatures’ attacks are nonmagical. Damage reduction, being incorporeal, and other special abilities also make a creature immune to damage from the swarm.
+
+The swarm cannot be fought effectively with weapons, but fire and damaging area effects can force it to disperse. The swarm disperses when it has taken a total of 2 hit points of damage per caster level from these attacks. Certain area or effect spells disperse a swarm immediately if appropriate to the swarm summoned.
+
+The swarm is stationary once summoned. A druid caster, however, can (as a move-equivalent action) direct the swarm to move up to 30 feet per round (or 90 feet per round if the druid has summoned bats or beetles).",,
+,,,,,,7,,,,Sunbeam,Beam blinds and deals 3d6 damage.,vsd,1 action,Medium (100 ft. + 10 ft./level),1 round/level or until all beams are exhausted,Reflex negates and half,Yes,,,
+,,,,,,8,,,8,Sunburst,"Blinds all within 10 ft., deals 3d6 damage.",vsmd,1 action,Long (400 ft. + 40 ft./level),Instantaneous,Reflex partial,Yes,,,
+,,,,,8,,,,8,Symbol,Triggered runes have array of effects.,vsmd,1 action or 10 minutes,Touch,See text,See text,Yes,,,
+,,,,,,9,,,8,Sympathy,Object or location attracts certain creatures.,vsm,1 hour,Close (25 ft. + 5 ft./2 levels),2 hours/level,Will negates,Yes,,,
+,,,,,,,,,1,T.'s Floating Disk,3-ft.-diameter horizontal disk that holds 100 lb./level.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,None,No,,,
+,,,,2,,,,,2,T.'s Hideous Laughter,Subject loses actions for 1d3 rounds.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1d3 rounds,Will negates,Yes,,,
+,,,,,,,,,6,T.'s Transformation,You gain combat bonuses.,vsm,1 action,Personal,1 round/level,--,--,,,
+,,,,,,,,,5,Telekinesis,Lifts or moves 25 lb./level at long range.,vs,1 action,Long (400 ft. + 40 ft./level),Concentration,Will negates,Yes,,,
+,,,,,,,,,5,Teleport,Instantly transports you anywhere.,v,1 action,Personal and touch,Instantaneous,None and Will negates,Y/N,,,
+,,,,,,,,,7,Teleport without Error,"As teleport, but no off-target arrival.",v,1 action,Personal and touch,Instantaneous,None and Will negates,Y/N,,,
+,,,,,,,,,9,Teleportation Circle,Circle teleports any creature inside to designated spot.,vm,10 minutes,Touch,10 minutes/level,None,Yes,,,
+,,,,,,,,,9,Temporal Stasis,Puts subject into suspended animation.,vsm,1 action,Touch,Permanent,None,Yes,,,
+,,,,,,,,,9,Time Stop,You act freely for 1d4+1 rounds.,v,1 action,Personal,1d4+1 rounds,--,--,,,
+,,,,2,4,,,,3,Tongues,Speak any language.,vmd,1 action,Touch,10 minutes/level,None,No,,,
+,,,,,,7,,,,Transmute Metal to Wood,Metal within 40 ft. becomes wood.,vsd,1 action,Long (400 ft. + 40 ft./level),Instantaneous,None,Yes,,,
+,,,,,,5,,,5,Transmute Mud to Rock,Transforms two 10-ft. cubes/level.,vsmd,1 action,Medium (100 ft. + 10 ft./level),Permanent,See text,No,,,
+,,,,,,5,,,5,Transmute Rock to Mud,Transforms two 10-ft. cubes/level.,vsmd,1 action,Medium (100 ft. + 10 ft./level),Permanent,See text,No,,,
+,,,,,,6,,,,Transport via Plants,Move instantly from one plant to another of the same species.,vs,1 action,Unlimited,1 round,--,--,,,
+,Conj,,,,,,,,8,Trap the Soul,Imprisons subject within gem.,vsm,1 action or see text,Close (25 ft. + 5 ft./2 levels),Permanent,See text,Yes,,,
+,,,,,,2,,3,,Tree Shape,You look exactly like a tree for 1 hour/level.,vsd,1 action,Personal,1 hour/level,--,--,,,
+,,,,,,5,,4,,Tree Stride,Step from one tree to another far away.,vsd,1 action,Personal,1 hour/level or until expended,--,--,,,
+,,,,,9,,,,,True Resurrection,"As resurrection, plus remains aren't needed.",vsmd,10 minutes,Touch,Instantaneous,None,Yes,,,
+,,,,,5,7,,,6,True Seeing,See all things as they really are.,vsm,1 action,Touch,1 minute/level,Will negates,Yes,,,
+,,,,,,,,,1,True Strike,Adds +20 bonus to your next attack roll.,vf,1 action,Personal,1 round,--,--,,,
+,,,,2,2,,2,,,Undetectable Alignment,Conceals alignment for 24 hours.,vs,1 action,Close (25 ft. + 5 ft./2 levels),24 hours,Will negates,Yes,,,
+,,,,,5,5,,,,Unhallow,Designates location as unholy.,vsm,One day,Touch,Instantaneous,None,Text,,,
+,,,,,8,,,,,Unholy Aura,"+4 AC, +4 resistance, and SR 25 against good spells.",vsf,1 action,20 ft.,1 round/level,See text,Yes,,,
+,,,,,,,,,,Unholy Blight,Damages and sickens good creatures.,vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Fortitude partial,Yes,,,
+,Conj,,,1,,,,,1,Unseen Servant,Creates invisible force that obeys your commands.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 hour/level,None,No,,,
+,,,,,,,,,3,Vampiric Touch,Touch deals 1d6/two caster levels; caster gains damage as hp.,vs,1 action,Touch,Instantaneous/1 hour,None,Yes,,,
+,,,,,,,,,7,Vanish,"As teleport, but affects a touched object.",v,1 action,Touch,Instantaneous,Will negates,Yes,,,
+,,,,6,,,,,6,Veil,Changes appearance of group of creatures.,vs,1 action,Long (400 ft. + 40 ft./level),Concentration + 1 hour/level,Will negates,Yes,,,
+,,,,1,,,,,1,Ventriloquism,Throws voice for 1 min./level.,vf,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Will disbelief,No,,,
+,,,,,0,0,1,,,Virtue,Subject gains 1 temporary hp.,vsd,1 action,Touch,1 minute,Yes,Yes,,,
+,,,,,,,,,7,Vision,"As legend lore, but quicker and strenuous.",vsmx,1 action,Personal,See text,--,--,,,
+,,,,,,,,,9,Wail of the Banshee,Kills one creature/level.,v,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Fortitude negates,Yes,,,
+,,,,,,5,,,4,Wall of Fire,Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 +1/level.,vsmd,1 action,Medium (100 ft. + 10 ft./level),Concentration + 1 round/level,See text,Yes,,,
+,,,,,,,,,5,Wall of Force,Wall is immune to damage.,vsm,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,None,No,,,
+,,,,,,,,,4,Wall of Ice,"Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.",vsm,1 action,Medium (100 ft. + 10 ft./level),1 minute/level,See text,Yes,,,
+,Conj,,,,,,,,5,Wall of Iron,30 hp/four levels; can topple onto foes.,vsm,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,See text,No,,,
+,Conj,,,,5,6,,,5,Wall of Stone,20 hp/four levels; can be shaped.,vsmd,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,See text,No,,,
+,,,,,,5,,,,Wall of Thorns,Thorns damage anyone who tries to pass.,vs,1 action,Medium (100 ft. + 10 ft./level),10 minutes/level,None,No,,,
+,,,,,,2,,,,Warp Wood,"Bends wood (shaft, handle, door, plank).",vs,1 action,Close (25 ft. + 5 ft./2 levels),Instantaneous,Will negates,Yes,,,
+,,,,,3,3,,,3,Water Breathing,Subjects can breathe underwater.,vsmd,1 action,Touch,2 hours/level,Will negates,Yes,,,
+,,,,,3,,,3,,Water Walk,Subject treads on water as if solid.,vsd,1 action,Touch,10 minutes/level,Will negates,Yes,,,
+,Conj,,,,,,,,2,Web,Fills 10-ft. cube/level with sticky spider webs.,vsm,1 action,Medium (100 ft. + 10 ft./level),10 minutes/level,Reflex negates,Yes,"Web creates a many-layered mass of strong, sticky strands. These strands trap those caught in them. The strands are similar to spider webs but far larger and tougher. These masses must be anchored to two or more solid and diametrically opposed points or else the web collapses upon itself and disappears. Creatures caught within a web or simply touching its strands become entangled among the gluey fibers.
+
+An entangled creature suffers a –2 penalty to attack rolls, suffers a –4 penalty to effective Dexterity, and can’t move. An entangled character who attempts to cast a spell must make a Concentration check (DC 15) or lose the spell.
+
+Anyone in the effect's area when the spell is cast must make a Reflex save. If this save succeeds, the creature is not stuck in the webs and is free to act, though moving may be a problem (see below). If the save fails, the creature is stuck. A stuck creature can break loose by spending 1 round and succeeding at a Strength check (DC 20) or an Escape Artist check (DC 25). Once loose (either by making the initial Reflex save or a later Strength check or Escape Artist check), a creature may progress through the web very slowly. Each round devoted to moving allows the creature to make a new Strength check or Escape Artist check. The creature moves 5 feet for each full 5 points by which the check result exceeds 10.
+
+The web provides one-quarter cover for every 5 feet of the substance between the character and an opponent—one-half cover for 10 feet of web, three-quarters for 15 feet, and total cover for 20 feet or more.
+
+The strands of a web spell are flammable. Any fire can set them alight and burn away 5 square feet in 1 round. All creatures within flaming webs take 2d4 points of damage from the flames.",,
+,,,,,,,,,9,Weird,"As phantasmal killer, but affects all within 30 ft.",vs,1 action,Medium (100 ft. + 10 ft./level),Instantaneous,Will disbelief,Yes,,,
+,,,,,,8,,,,Whirlwind,Cyclone inflicts damage and can pick up creatures.,vsd,1 action,Long (400 ft. + 40 ft./level),1 round/level,Reflex negates,Yes,,,
+,,,,2,,,,,2,Whispering Wind,Sends a short message one mile/level.,vs,1 action,One mile/level,Until discharged,None,No,,,
+,,,,,6,7,,,,Wind Walk,You and your allies turn vaporous and travel fast.,vsd,1 action,Touch,1 hour/level,No and Will negates,Y/N,,,
+,,,,3,3,,,4,3,Wind Wall,"Deflects arrows, smaller creatures, and gases.",vsmd,1 action,Medium (100 ft. + 10 ft./level),1 round/level,None,Yes,,,
+,,,,,,,,,9,Wish,"As limited wish, but with fewer limits.",vx,1 action,See text,See text,See text,Yes,,,
+,,,,,,2,,,,Wood Shape,Rearranges wooden objects to suit you.,vsd,1 action,Touch,Instantaneous,Will negates,Yes,,,
+,,,,,7,,,,,Word of Chaos,"Kills, confuses, stuns, or deafens nonchaotic subjects.",v,1 action,30 ft.,Instantaneous,None,Yes,,,
+,,,,,6,8,,,,Word of Recall,Teleports you back to designated place.,v,1 action,Unlimited,Instantaneous,None or Will negates,Y/N,,,
+,,,,,2,,,,,Zone of Truth,Subjects within range cannot lie.,vsd,1 action,Close (25 ft. + 5 ft./2 levels),1 minute/level,Will negates,Yes,,,
