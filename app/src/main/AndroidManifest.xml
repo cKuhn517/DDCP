@@ -28,13 +28,22 @@
                 android:value="ck.dndcopilot.CharacterSelectActivity" />
         </activity>
         <activity
-            android:name=".Spells"
+            android:name=".SpellsActivity"
             android:label="@string/title_activity_spells"
             android:parentActivityName=".CharacterHomeActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CharacterHomeActivity" />
+        </activity>
+        <activity
+            android:name=".CharSheetActivity"
+            android:label="@string/title_activity_char_sheet"
+            android:parentActivityName=".CharacterHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ck.dndcopilot.CharacterHomeActivity" />
         </activity>
     </application>
 

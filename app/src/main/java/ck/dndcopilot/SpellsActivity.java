@@ -12,7 +12,7 @@ import android.view.View;
 import java.io.IOException;
 import java.sql.SQLException;
 
-public class Spells extends AppCompatActivity {
+public class SpellsActivity extends AppCompatActivity {
 
     SpellListDBOpenHelper myDb;
     String charName;

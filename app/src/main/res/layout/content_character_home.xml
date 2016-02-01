@@ -126,14 +126,15 @@
         android:text="+XP"
         android:id="@+id/button_char_home_add_xp"
         android:layout_below="@+id/textView_char_home_xp"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="addXPButton"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberSigned"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/editText_char_home_xp_amount"
         android:layout_alignBottom="@+id/button_char_home_add_xp"
         android:layout_toEndOf="@+id/button_char_home_add_xp"
         android:layout_toStartOf="@+id/imageView_char_portrait" />
@@ -189,7 +190,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Max"
         android:id="@+id/textView_char_home_hp_max"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/editText_char_home_xp_amount"
         android:layout_toEndOf="@+id/textView_char_home_hpSlash" />
 
     <ImageView
@@ -216,34 +217,15 @@
         android:layout_height="wrap_content"
         android:text="Character Sheet"
         android:id="@+id/button_char_home_char_sheet"
-        android:layout_alignTop="@+id/textView_char_home_free_edit"
-        android:layout_toEndOf="@+id/textView_char_home_free_edit" />
+        android:layout_below="@+id/imageView"
+        android:onClick="cHome_charSheet"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Play Mode"
         android:id="@+id/button_char_home_play_mode"
-        android:layout_alignTop="@+id/textView_char_home_play_mode"
-        android:layout_toEndOf="@+id/textView_char_home_play_mode" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Play Mode: "
-        android:id="@+id/textView_char_home_play_mode"
-        android:layout_below="@+id/button_char_home_char_sheet"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Free Edit: "
-        android:id="@+id/textView_char_home_free_edit"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView" />
+        android:layout_below="@+id/button_char_home_char_sheet" />
 
 
 </RelativeLayout>

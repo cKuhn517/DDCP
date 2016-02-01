@@ -39,9 +39,6 @@ public class CharacterSelectActivity extends AppCompatActivity {
 
         charDb = new CharListDBOpenHelper(this);
 
-        //load asset databases into mem;
-        GameDataDBAssetHelper gmdataDb = new GameDataDBAssetHelper(this);
-
         //populateListView();
 
         updateListView();
@@ -129,6 +126,7 @@ public class CharacterSelectActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         String newName = input.getText().toString();
                         if (newName.length() != 0) {
+                            //TODO: Check that character name doesn't exist already
                             boolean isInserted = charDb.insertData(newName);
                             if (isInserted) {
                                 Toast.makeText(CharacterSelectActivity.this, "Character Added", Toast.LENGTH_SHORT).show();
@@ -354,8 +352,9 @@ public class CharacterSelectActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     if (charDb.deletePosition(position)) {
+                        context.deleteDatabase(list.get(position));
                         Toast.makeText(CharacterSelectActivity.this, "Character deleted", Toast.LENGTH_SHORT).show();
-                        list.remove(position); //or some other task
+                        list.remove(position); //TODO: Delete character database
                         notifyDataSetChanged();
                     }else
                         Toast.makeText(CharacterSelectActivity.this, "Delete failed", Toast.LENGTH_SHORT).show();

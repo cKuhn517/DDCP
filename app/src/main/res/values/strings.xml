@@ -8,5 +8,6 @@
     <string name="char_name">CharName</string>
     <string name="char_race_class">CharRace CharClass</string>
     <string name="title_activity_spells">Spells</string>
+    <string name="title_activity_char_sheet">Character Sheet</string>
 
 </resources>
