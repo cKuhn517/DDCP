@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -73,16 +74,30 @@ public class CharacterHomeActivity extends AppCompatActivity {
         TextView textNeedXP = (TextView) findViewById(R.id.textView_char_home_xp_need);
         textCurXP.setText(Integer.toString(curXP));
         textNeedXP.setText(Integer.toString(needXP));
-        xpBar.setProgress(curXP);
         xpBar.setMax(needXP);
+        xpBar.setProgress(curXP);
     }
 
     public void addXPButton(View view) {
         //get amount to add from edittext
         EditText editText = (EditText) findViewById(R.id.editText_char_home_xp_amount);
-        int amt = Integer.parseInt(editText.getText().toString());
+        String tmp = editText.getText().toString();
+        if (!tmp.isEmpty()) {
+            int amt = Integer.parseInt(tmp);
+            editText.setText("");
 
-        CharDb.addXP(amt);
+            if (CharDb.addXP(amt)) { //if level up
+                Button lvlup = (Button) findViewById(R.id.button_char_home_lvlup);
+                lvlup.setVisibility(View.VISIBLE);
+            }
+
+            updateStats();
+        }
+    }
+
+    public void cHome_lvlUp(View view) {
+        Button lvlup = (Button) findViewById(R.id.button_char_home_lvlup);
+        lvlup.setVisibility(View.GONE);
 
     }
 }

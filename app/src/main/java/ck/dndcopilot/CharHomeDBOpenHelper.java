@@ -526,12 +526,7 @@ public class CharHomeDBOpenHelper extends SQLiteOpenHelper {
         //Update XP (and maybe LVL) value(s)
         boolean updtXP = db.update(TABLE_CHARSHEET, newValues, where, null) != 0;
 
-        if (lvlup)
-            //TODO implement level up process for each class
-                ;
-
-        //TODO check that other operations worked as well
-        return updtXP;
+        return lvlup;
     }
 
 }

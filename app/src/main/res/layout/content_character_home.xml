@@ -50,9 +50,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Lvl: "
         android:id="@+id/textView_char_home_lvl"
-        android:layout_below="@+id/textView_char_race"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="25dp" />
+        android:layout_above="@+id/textView_char_home_xp"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,11 +68,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="XP: "
         android:id="@+id/textView_char_home_xp"
-        android:layout_below="@+id/textView_char_home_lvl"
+        android:layout_above="@+id/button_char_home_add_xp"
         android:layout_alignParentStart="true" />
 
-    <ProgressBar
-        style="?android:attr/progressBarStyleSmall"
+    <!--<ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/progressBar_char_home_xp"
@@ -84,11 +83,28 @@
         android:layout_toLeftOf="@+id/imageView_char_portrait"
         android:layout_marginRight="4dp"
         android:max="100"
-        android:progress="100"
+        android:progress="50"
         android:indeterminate="false"
         android:layout_toStartOf="@+id/imageView_char_portrait"
-        android:progressBackgroundTint="#7bc043"
-        android:background="#777bc043" />
+        android:progressBackgroundTint="#ffdddddd"
+        android:progressTint="#ff7bc043" />
+    -->
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressBar_char_home_xp"
+        android:layout_alignBottom="@+id/textView_char_home_xp"
+        android:layout_alignTop="@+id/textView_char_home_xp"
+        android:layout_toEndOf="@+id/textView_char_home_xp"
+        android:layout_alignLeft="@+id/textView_char_home_xp_have"
+        android:layout_toLeftOf="@+id/imageView_char_portrait"
+        android:layout_marginRight="4dp"
+        android:max="100"
+        android:progress="50"
+        android:indeterminate="false"
+        android:layout_toStartOf="@+id/imageView_char_portrait"
+        android:progressDrawable="@drawable/greenprogress" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -125,9 +141,9 @@
         android:layout_height="wrap_content"
         android:text="+XP"
         android:id="@+id/button_char_home_add_xp"
-        android:layout_below="@+id/textView_char_home_xp"
-        android:layout_alignParentStart="true"
-        android:onClick="addXPButton"/>
+        android:onClick="addXPButton"
+        android:layout_above="@+id/textView_char_home_hp"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -145,26 +161,43 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="HP: "
         android:id="@+id/textView_char_home_hp"
-        android:layout_below="@+id/button_char_home_add_xp"
-        android:layout_alignParentStart="true" />
+        android:layout_above="@+id/imageView"
+        android:layout_toStartOf="@+id/progressBar_char_home_xp" />
 
-    <ProgressBar
-        style="?android:attr/progressBarStyleSmall"
+    <!--<ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/progressBar2"
+        android:id="@+id/progressBar_char_home_hp"
         android:layout_marginRight="4dp"
         android:max="100"
-        android:progress="100"
+        android:progress="50"
         android:indeterminate="false"
-        android:progressBackgroundTint="#7bc043"
-        android:background="#77ee4035"
+        android:progressBackgroundTint="#ffdddddd"
         android:layout_alignBottom="@+id/textView_char_home_hp"
         android:layout_toEndOf="@+id/textView_char_home_xp"
         android:layout_toStartOf="@+id/imageView_char_portrait"
         android:layout_alignTop="@+id/textView_char_home_hp"
         android:layout_alignLeft="@+id/textView_char_home_hp_cur"
-        android:layout_toLeftOf="@+id/imageView_char_portrait" />
+        android:layout_toLeftOf="@+id/imageView_char_portrait"
+        android:progressTint="#77ee4035" /> -->
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressBar_char_home_hp"
+        android:layout_marginRight="4dp"
+        android:max="100"
+        android:progress="50"
+        android:indeterminate="false"
+        android:layout_alignBottom="@+id/textView_char_home_hp"
+        android:layout_toEndOf="@+id/textView_char_home_xp"
+        android:layout_toStartOf="@+id/imageView_char_portrait"
+        android:layout_alignTop="@+id/textView_char_home_hp"
+        android:layout_alignLeft="@+id/textView_char_home_hp_cur"
+        android:layout_toLeftOf="@+id/imageView_char_portrait"
+        android:progressDrawable="@drawable/redprogress" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -172,7 +205,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Cur"
         android:id="@+id/textView_char_home_hp_cur"
-        android:layout_below="@+id/button_char_home_add_xp"
+        android:layout_alignTop="@+id/textView_char_home_hp"
         android:layout_toEndOf="@+id/textView_char_home_hp" />
 
     <TextView
@@ -190,27 +223,27 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Max"
         android:id="@+id/textView_char_home_hp_max"
-        android:layout_below="@+id/editText_char_home_xp_amount"
+        android:layout_alignTop="@+id/progressBar_char_home_hp"
         android:layout_toEndOf="@+id/textView_char_home_hpSlash" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="10dp"
         android:id="@+id/imageView"
         android:layout_below="@+id/imageView_char_portrait"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
-        android:background="#55000000"
-        android:layout_marginTop="4dp" />
+        android:background="#ff000000"
+        android:layout_marginTop="6dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Spells"
         android:id="@+id/button_char_home_spells"
-        android:layout_below="@+id/imageView"
-        android:layout_toEndOf="@+id/button_char_home_char_sheet"
-        android:onClick="cHome_spells" />
+        android:onClick="cHome_spells"
+        android:layout_below="@+id/button_char_home_char_sheet"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -225,7 +258,19 @@
         android:layout_height="wrap_content"
         android:text="Play Mode"
         android:id="@+id/button_char_home_play_mode"
-        android:layout_below="@+id/button_char_home_char_sheet" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lvl Up!"
+        android:id="@+id/button_char_home_lvlup"
+        android:layout_toEndOf="@id/textView_char_home_lvl_val"
+        android:layout_alignBottom="@+id/textView_char_home_lvl_val"
+        android:visibility="gone"
+        android:onClick="cHome_lvlUp"/>
 
 
 </RelativeLayout>
