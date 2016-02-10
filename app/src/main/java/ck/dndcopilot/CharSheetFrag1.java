@@ -20,15 +20,96 @@ public class CharSheetFrag1 extends Fragment {
     ArrayAdapter<CharSequence> raceSpinnerAdapter;
     String raceValue = "";
     View rootView;
-    Button saveButton, cancelButton;
+    Button brbB, brdB, clrB, drdB, ftrB, mnkB, palB, rgrB, rogB, sorB, wizB, saveButton, cancelButton;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         rootView = inflater.inflate(R.layout.charsheet_frag_1, container, false);
 
+        //<editor-fold desc="Class Plus Buttons">
+        brbB = (Button) rootView.findViewById(R.id.button_cs1_brbp);
+        brdB = (Button) rootView.findViewById(R.id.button_cs1_brdp);
+        clrB = (Button) rootView.findViewById(R.id.button_cs1_clrp);
+        drdB = (Button) rootView.findViewById(R.id.button_cs1_drdp);
+        ftrB = (Button) rootView.findViewById(R.id.button_cs1_ftrp);
+        mnkB = (Button) rootView.findViewById(R.id.button_cs1_mnkp);
+        palB = (Button) rootView.findViewById(R.id.button_cs1_palp);
+        rgrB = (Button) rootView.findViewById(R.id.button_cs1_rgrp);
+        rogB = (Button) rootView.findViewById(R.id.button_cs1_rogp);
+        sorB = (Button) rootView.findViewById(R.id.button_cs1_sorp);
+        wizB = (Button) rootView.findViewById(R.id.button_cs1_wizp);
+
+        brbB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("brb");
+            }
+        });
+        brdB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("brd");
+            }
+        });
+        clrB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("clr");
+            }
+        });
+        drdB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("drd");
+            }
+        });
+        ftrB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("ftr");
+            }
+        });
+        mnkB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("mnk");
+            }
+        });
+        palB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("pal");
+            }
+        });
+        rgrB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("rgr");
+            }
+        });
+        rogB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("rog");
+            }
+        });
+        sorB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("sor");
+            }
+        });
+        wizB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                plusClass("wiz");
+            }
+        });
+        //</editor-fold>
+
         raceSpinner = (Spinner) rootView.findViewById(R.id.spinner_cs1_race);
-        raceSpinnerAdapter = ArrayAdapter.createFromResource(this.getContext(),R.array.race,android.R.layout.simple_spinner_item);
+        raceSpinnerAdapter = ArrayAdapter.createFromResource(this.getContext(), R.array.race, android.R.layout.simple_spinner_item);
         raceSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         raceSpinner.setAdapter(raceSpinnerAdapter);
         raceSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -59,8 +140,14 @@ public class CharSheetFrag1 extends Fragment {
             }
         });
 
+        loadValues();
+
         return rootView;
         //return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    private void plusClass(String cls) {
+        //TODO Increase class level on button push
     }
 
     private void loadValues() {

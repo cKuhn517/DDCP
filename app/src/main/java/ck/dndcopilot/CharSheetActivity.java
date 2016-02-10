@@ -14,8 +14,6 @@ import android.widget.Toast;
 public class CharSheetActivity extends FragmentActivity {
 
     ViewPager viewPager;
-    //Spinner raceSpinner;
-    //ArrayAdapter<CharSequence> raceSpinnerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,29 +25,6 @@ public class CharSheetActivity extends FragmentActivity {
 
         viewPager.setAdapter(padapter);
 
-        // Fragment 1 code
-        /*
-        raceSpinner = (Spinner) findViewById(R.id.spinner_cs1_race);
-        raceSpinnerAdapter = ArrayAdapter.createFromResource(this,R.array.race,android.R.layout.simple_spinner_item);
-        raceSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        raceSpinner.setAdapter(raceSpinnerAdapter);
-        raceSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getBaseContext(),parent.getItemAtPosition(position)+" is selected",Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
-*/
-    }
-
-    public void buttonCs2Save() {
-        EditText strScore = (EditText) findViewById(R.id.editText_cs2_strscore);
-        Toast.makeText(this, "STR: " + strScore.getText(), Toast.LENGTH_LONG).show();
     }
 
 }

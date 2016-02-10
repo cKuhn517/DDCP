@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+-->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Health"
+        android:id="@+id/textView_cs3_health"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Max HP: "
+        android:id="@+id/textView_cs3_maxhp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView_cs3_health"
+        android:layout_alignBottom="@+id/editText_cs3_maxhpval"
+        android:gravity="bottom"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_cs3_maxhpval"
+        android:layout_below="@+id/textView_cs3_health"
+        android:layout_toEndOf="@+id/textView_cs3_maxhp"
+        android:text="100" />
+
+</RelativeLayout>
+
+<!--</ScrollView>-->

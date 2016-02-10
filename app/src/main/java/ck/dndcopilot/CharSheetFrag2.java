@@ -50,7 +50,6 @@ public class CharSheetFrag2 extends Fragment {
 
 
         return rootView;
-        //return super.onCreateView(inflater, container, savedInstanceState);
     }
 
     private void loadValues() {

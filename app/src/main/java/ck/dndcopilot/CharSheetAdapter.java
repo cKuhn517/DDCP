@@ -20,6 +20,8 @@ public class CharSheetAdapter extends FragmentPagerAdapter{
                 return new CharSheetFrag1();
             case 1:
                 return new CharSheetFrag2();
+            case 2:
+                return new CharSheetFrag3();
             default:
                 break;
         }
@@ -29,6 +31,6 @@ public class CharSheetAdapter extends FragmentPagerAdapter{
     @Override
     public int getCount() {
 
-        return 2; //number of fragments
+        return 3; //number of fragments
     }
 }
